@@ -192,11 +192,12 @@
                 
                 <!-- Centered Logo -->
                 <div class="absolute left-1/2 transform -translate-x-1/2">
-                    <img src="Logo/logo.jpg" alt="FlourishSen Logo" class="w-12 h-12 rounded cursor-pointer" onclick="showPage('home')">
+                    <img src="Logo/LOGO 4.png" alt="FlourishSen Logo" class="w-12 h-12 rounded cursor-pointer" onclick="showPage('home')">
                 </div>
                 
                 <!-- Right navigation for desktop -->
                 <div class="hidden md:flex items-center gap-6">
+                    <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">Home</button>
                     <button onclick="showPage('about')" class="text-gray-600 hover:text-gray-800">About</button>
                     <button onclick="showPage('contact')" class="text-gray-600 hover:text-gray-800">Contact Us</button>
                 </div>
@@ -253,15 +254,15 @@
 
     <!-- WhatsApp Sticky Icon -->
     <div class="whatsapp-sticky">
-        <button onclick="toggleWhatsApp()" class="bg-green-500 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 animate-pulse">
-            <img src="Logo/logo.jpg" alt="WhatsApp" class="w-9 h-9">
+        <button onclick="toggleWhatsApp()" class="bg-green-20 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 animate-pulse">
+            <img src="Logo/LOGO 4.png" alt="WhatsApp" class="w-9 h-9">
         </button>
     </div>
 
     <!-- WhatsApp Chat -->
     <div class="whatsapp-chat" id="whatsappChat">
         <div class="chat-header">
-            <img src="Logo/logo.jpg" alt="AI Assistant" class="w-9 h-9 rounded-full">
+            <img src="Logo/LOGO 4.png" alt="AI Assistant" class="w-9 h-9 rounded-full">
             <div>
                 <div class="font-semibold">FlourishSen AI</div>
                 <div class="text-xs opacity-75">Online</div>
@@ -344,7 +345,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow" onclick="showPage('new-in')">
-                    <img src="https://via.placeholder.com/400x300/404040/FFFFFF?text=New+Arrivals" alt="New In" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful for work.jpg" alt="New In" class="w-full h-64 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">New In</h3>
                         <p class="text-gray-600">Fresh arrivals just for you</p>
@@ -362,6 +363,8 @@
 
         <!-- Category Buttons -->
         <section class="max-w-7xl mx-auto px-4 py-8">
+            <div class="text-center text-black">
+                            <h2 class="text-5xl font-bold text-gray-800 mb-2">Our Products</h2>
             <div class="flex flex-wrap justify-center gap-4">
                 <button onclick="showPage('clothing')" class="bg-transparent border-2 border-gray-400 text-gray-700 px-6 py-3 rounded hover:border-gray-600 transition-colors">
                     Clothing
@@ -453,46 +456,46 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1" alt="New Item 1" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful for work.jpg" alt="Beautiful for work" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Fresh Blazer</h3>
-                        <p class="text-gray-600">₦40,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful for work</h3>
+                        <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('new-1', 'Fresh Blazer', 40000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('new-1', 'Fresh Blazer', 40000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('new-1', 'Beautiful for work', 100000, 'Clothes/Beautiful for work.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('new-1', 'Beautiful for work', 100000, 'Clothes/Beautiful for work.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=New+Item+2" alt="New Item 2" class="w-full h-64 object-cover">
+                    <img src="Clothes/All white pretty dress. Available only in size 44.jpg" alt="All white pretty dress. Available only in size 44" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Modern Skirt</h3>
-                        <p class="text-gray-600">₦18,000</p>
+                        <h3 class="font-semibold text-gray-800">All white pretty dress. Available only in size 44</h3>
+                        <p class="text-gray-600">₦120,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('new-2', 'Modern Skirt', 18000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('new-2', 'Modern Skirt', 18000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=New+Item+2')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('new-2', 'All white pretty dress. Available only in size 44', 120000, 'Clothes/All white pretty dress. Available only in size 44.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('new-2', 'All white pretty dress. Available only in size 44', 120000, 'Clothes/All white pretty dress. Available only in size 44.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=New+Item+3" alt="New Item 3" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50 .jpg" alt="Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Trendy Top</h3>
-                        <p class="text-gray-600">₦12,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50</h3>
+                        <p class="text-gray-600">₦90,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('new-3', 'Trendy Top', 12000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('new-3', 'Trendy Top', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=New+Item+3')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('new-3', 'Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50 ', 90000, 'Clothes/Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50 .jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('new-3', 'Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50', 90000, 'Clothes/Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50 .jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=New+Item+4" alt="New Item 4" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available.jpg" alt="Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Elegant Pants</h3>
-                        <p class="text-gray-600">₦22,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available</h3>
+                        <p class="text-gray-600">₦65,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('new-4', 'Elegant Pants', 22000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('new-4', 'Elegant Pants', 22000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=New+Item+4')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('new-4', 'Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available', 65000, 'Clothes/Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('new-4', 'Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available', 65000, 'Clothes/Beautiful work wear! So cute. Only this colour available. Sizes 44. 46 and 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -653,13 +656,13 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt" alt="Designer Shirt" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful for work.jpg" alt="Beautiful for work" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Designer Shirt</h3>
-                        <p class="text-gray-600">₦18,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful for work</h3>
+                        <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('clothing-1', 'Beautiful for work', 100000, 'Clothes/Beautiful for work.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('clothing-1', 'Beautiful for work', 100000, 'Clothes/Beautiful for work.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1004,8 +1007,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely Balenciaga cute bag</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-10', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-10', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('bag-11', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-11', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1015,19 +1018,74 @@
                         <h3 class="font-semibold text-gray-800">Lovely Burberry bag for work. All leather</h3>
                         <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-10', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-10', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('bag-12', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-12', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
-                    </div>
+                </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <img src="Bags/Lovely Gucci bag. All leather.jpg" alt="Lovely Gucci bag. All leather" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Lovely Gucci bag. All leather</h3>
                         <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-10', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-10', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="addToCart('bag-13', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-13', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="Bags/Navy Blue Gucci bag.jpg" alt="Navy Blue Gucci bag" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Navy Blue Gucci bag</h3>
+                        <p class="text-gray-600">₦145,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="addToCart('bag-14', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-14', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="Bags/Real snake skin leather. Excellently beautiful.jpg" alt="Real snake skin leather. Excellently beautiful" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Real snake skin leather. Excellently beautiful</h3>
+                        <p class="text-gray-600">₦180,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="addToCart('bag-15', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-15', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="Bags/Roberta carvalli patent bag.jpg" alt="Roberta carvalli patent bag" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Roberta carvalli patent bag</h3>
+                        <p class="text-gray-600">₦135,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="addToCart('bag-16', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-16', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg" alt="Versace bag,  comes in various colours" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Versace bag,  comes in various colours</h3>
+                        <p class="text-gray-600">₦120,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="addToCart('bag-17', 'Versace bag,  comes in various colours', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-17', 'Versace bag,  comes in various colours', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="Bags/Wine colour Burberry leather bag.jpg" alt="Wine colour Burberry leather bag" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Wine colour Burberry leather bag</h3>
+                        <p class="text-gray-600">₦120,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="addToCart('bag-18', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('bag-18', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1242,7 +1300,7 @@
                             <p class="font-medium">Your order information has been successfully saved.</p>
                             <p class="text-sm">• Redirecting you to complete payment...</p>
                             <p class="text-sm">• Your items are reserved for 24 hours</p>
-                            <p class="text-sm">• Need help? Contact: +234 801 234 5678</p>
+                            <p class="text-sm">• Need help? Contact: +234 802 301 1230</p>
                         </div>
                     </div>
                     
@@ -1320,7 +1378,7 @@
                                 <li>• Use the reference number (FS2024001) as payment reference</li>
                                 <li>• Transfer the exact amount shown above</li>
                                 <li>• Keep your payment receipt for verification</li>
-                                <li>• Orders are processed within 2-4 hours after payment confirmation</li>
+                                <li>• Orders are processed within 1 hour after payment confirmation</li>
                             </ul>
                         </div>
                     </div>
@@ -1388,10 +1446,10 @@
                             </div>
                             <div class="text-green-700 space-y-2">
                                 <p class="font-medium">Your payment proof has been successfully submitted.</p>
-                                <p class="text-sm">• We will verify your payment within 2-4 hours</p>
+                                <p class="text-sm">• We will verify your payment within 1 hour</p>
                                 <p class="text-sm">• You'll receive an email confirmation once verified</p>
                                 <p class="text-sm">• Your order will be processed immediately after verification</p>
-                                <p class="text-sm">• Track your order status via phone: +234 801 234 5678</p>
+                                <p class="text-sm">• Track your order status via phone: +234 802 301 1230</p>
                             </div>
                         </div>
                     </form>
@@ -1544,11 +1602,11 @@
                             </div>
                             <div class="text-green-700 space-y-2">
                                 <p class="font-medium">Your Pay on Delivery order has been confirmed.</p>
-                                <p class="text-sm">• We will contact you within 24 hours to arrange delivery</p>
+                                <p class="text-sm">• We will contact you within 1 hours to arrange delivery</p>
                                 <p class="text-sm">• Have the exact cash amount ready: ₦<span id="podFinalAmount">0</span></p>
                                 <p class="text-sm">• You can inspect items before payment</p>
                                 <p class="text-sm">• Our delivery agent will have proper identification</p>
-                                <p class="text-sm">• Questions? Call us: +234 801 234 5678</p>
+                                <p class="text-sm">• Questions? Call us: +234 802 301 1230</p>
                             </div>
                         </div>
                     </form>
@@ -1609,7 +1667,7 @@
                     <h3 class="text-xl font-bold mb-4">Get in Touch</h3>
                     <div class="space-y-3">
                         <p><strong>Address:</strong> 123 Fashion Street, Victoria Island, Lagos</p>
-                        <p><strong>Phone:</strong> +234 801 234 5678</p>
+                        <p><strong>Phone:</strong> +234 802 301 1230</p>
                         <p><strong>Email:</strong> info@flourishsen.com</p>
                         <p><strong>Hours:</strong> Mon-Sat 9AM-8PM</p>
                     </div>
@@ -1717,10 +1775,10 @@
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I place an order?</h4>
                                 <div class="text-gray-600 space-y-2">
                                     <p><strong>Step 1:</strong> Browse our categories or use the search bar to find products</p>
-                                    <p><strong>Step 2:</strong> Click on a product to view details and select size/color if applicable</p>
-                                    <p><strong>Step 3:</strong> Click "Add to Cart" and continue shopping or proceed to checkout</p>
-                                    <p><strong>Step 4:</strong> Fill in your delivery details and choose payment method</p>
-                                    <p><strong>Step 5:</strong> Complete payment and receive order confirmation</p>
+                                    <!-- <p><strong>Step 2:</strong> Click on a product to view details and select size/color if applicable</p> -->
+                                    <p><strong>Step 2:</strong> Click "Add to Cart" and continue shopping or proceed to checkout</p>
+                                    <p><strong>Step 3:</strong> Fill in your delivery details and choose payment method</p>
+                                    <p><strong>Step 4:</strong> Complete payment and receive order confirmation</p>
                                 </div>
                             </div>
                             
@@ -1731,7 +1789,7 @@
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do you have a size guide?</h4>
-                                <p class="text-gray-600">Yes! Each clothing item has a detailed size guide. Click on "Size Guide" on the product page. We offer sizes from XS to XXL. If you're unsure, our chat support can help you choose the right size.</p>
+                                <p class="text-gray-600">Yes! Each clothing item has a detailed size. If you're unsure, our chat support can help you choose the right size.</p>
                             </div>
                             
                             <div class="pb-4">
@@ -1743,7 +1801,7 @@
                         <div class="space-y-6">
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">What if an item is out of stock?</h4>
-                                <p class="text-gray-600">Out of stock items will show "Notify Me" instead of "Add to Cart". Click this to get notified when the item is back in stock. We typically restock popular items within 1-2 weeks.</p>
+                                <p class="text-gray-600">You can send us a message or call us via our contact us form for update on out of stock items .</p>
                             </div>
                             
                             <div class="border-b border-gray-200 pb-4">
@@ -1757,8 +1815,8 @@
                             </div>
                             
                             <div class="pb-4">
-                                <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I apply a discount code?</h4>
-                                <p class="text-gray-600">Enter your discount code in the "Promo Code" field during checkout before completing payment. The discount will be applied automatically to eligible items in your cart.</p>
+                                <!-- <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I apply a discount code?</h4>
+                                <p class="text-gray-600">Enter your discount code in the "Promo Code" field during checkout before completing payment. The discount will be applied automatically to eligible items in your cart.</p> -->
                             </div>
                         </div>
                     </div>
@@ -1776,9 +1834,9 @@
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">What payment methods do you accept?</h4>
                                 <div class="text-gray-600 space-y-2">
                                     <p><strong>Bank Transfer:</strong> All major Nigerian banks supported</p>
-                                    <p><strong>Pay on Delivery:</strong> Available in Lagos, Abuja, Rivers, Ogun, Oyo, and Kano</p>
-                                    <p><strong>Mobile Money:</strong> Coming soon!</p>
-                                    <p><strong>Card Payments:</strong> Coming soon!</p>
+                                    <p><strong>Pay on Delivery:</strong> Available in Lagos.</p>
+                                    <!-- <p><strong>Mobile Money:</strong> Coming soon!</p>
+                                    <p><strong>Card Payments:</strong> Coming soon!</p> -->
                                 </div>
                             </div>
                             
@@ -1848,7 +1906,7 @@
                             
                             <div class="pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Can I track my order?</h4>
-                                <p class="text-gray-600">Absolutely! After your order ships, you'll receive tracking information via SMS and email. You can also track your order on our website or contact our support team for updates.</p>
+                                <p class="text-gray-600">Absolutely! After your order ships. You can call any of the number on the track your order page on our website or contact our support team for updates.</p>
                             </div>
                         </div>
                         
@@ -1860,7 +1918,7 @@
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do you deliver on weekends?</h4>
-                                <p class="text-gray-600">Yes! We deliver Monday through Saturday. Sunday deliveries are available in Lagos and Abuja for urgent orders with an additional ₦1,500 charge.</p>
+                                <p class="text-gray-600">Yes! We deliver Monday through Saturday.</p>
                             </div>
                             
                             <div class="pb-4">
@@ -1945,7 +2003,7 @@
                         <div class="space-y-6">
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do I need to create an account?</h4>
-                                <p class="text-gray-600">No account required! You can shop as a guest. However, creating an account lets you track orders, save favorites, and checkout faster on future purchases.</p>
+                                <p class="text-gray-600">No account required! You can shop as a guest.</p>
                             </div>
                             
                             <div class="border-b border-gray-200 pb-4">
@@ -1974,8 +2032,8 @@
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I contact customer service?</h4>
                                 <div class="text-gray-600 space-y-1">
                                     <p>• Live Chat: Click the chat icon (available 24/7)</p>
-                                    <p>• Phone: +234 801 234 5678</p>
-                                    <p>• WhatsApp: +234 801 234 5678</p>
+                                    <p>• Phone: +234 802 301 1230</p>
+                                    <p>• WhatsApp: +234 802 301 1230</p>
                                     <p>• Email: support@flourishsen.com</p>
                                 </div>
                             </div>
@@ -2276,8 +2334,8 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-                <p class="text-gray-300">&copy; 2024 FlourishSen. All rights reserved.</p>
-                <p class="text-gray-400 text-sm mt-2 cursor-pointer hover:text-gray-300 transition-colors" onclick="window.open('https://github.com/jamesdev', '_blank')">James Dev &lt;/&gt;</p>
+                <p class="text-gray-300">&copy; 2025 FlourishSen. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mt-2 cursor-pointer hover:text-gray-300 transition-colors" onclick="window.open('https://chef-hub5.github.io/portfolio/')">James Dev &lt;/&gt;</p>
             </div>
         </div>
     </footer>
@@ -3322,10 +3380,11 @@
         // Search functionality
         const allProducts = [
             // Trending items
-            { id: 'trending-1', name: 'Stylish Jacket', price: 25000, category: 'trending', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1' },
-            { id: 'trending-2', name: 'Designer Dress', price: 35000, category: 'trending', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2' },
-            { id: 'trending-3', name: 'Casual Shirt', price: 15000, category: 'trending', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Trending+Item+3' },
-            { id: 'trending-4', name: 'Premium Jeans', price: 20000, category: 'trending', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Trending+Item+4' },
+            { id: 'trending-1', name: 'Beautiful Fendi bag', price: 145000, category: 'trending', image: 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg' },
+            // { id: 'trending-2', name: 'Beautiful Gucci bag', price: 155000, category: 'trending', image: 'Bags/Beautiful Gucci bag.jpg' },
+            { id: 'trending-2', name: 'Beautiful red bag, So Classy', price: 190000, category: 'trending', image: 'Bags/Beautiful red bag! So classy.jpg' },
+            { id: 'trending-3', name: 'Beautiful leather miu miu bag', price: 155000, category: 'trending', image: 'Bags/Beautiful leather miu miu bag.jpg' },
+            { id: 'trending-4', name: 'Beautiful LV bag for work', price: 145000, category: 'trending', image: 'Bags/Beautiful LV bag for work.jpg' },
             
             // New arrivals
             { id: 'new-1', name: 'Fresh Blazer', price: 40000, category: 'new-in', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1' },
@@ -3371,9 +3430,26 @@
             
             // Bags
             { id: 'bag-1', name: 'Beautiful red bag! So classy', price: 190000, category: 'bags', image: 'Bags/Beautiful red bag! So classy.jpg' },
-            { id: 'bag-2', name: 'Travel Backpack', price: 28000, category: 'bags', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack' },
-            { id: 'bag-3', name: 'Crossbody Bag', price: 18000, category: 'bags', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag' },
-            { id: 'bag-4', name: 'Leather Tote Bag', price: 35000, category: 'bags', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag' }
+            { id: 'bag-2', name: 'Beautiful Gucci bag', price: 155000, category: 'bags', image: 'Bags/Beautiful Gucci bag.jpg' },
+            { id: 'bag-3', name: 'Black Gucci bag. Lovely', price: 160000, category: 'bags', image: 'Bags/Black Gucci bag. Lovely.jpg' },
+            { id: 'bag-4', name: 'Beautiful leather miu miu bag', price: 155000, category: 'bags', image: 'Bags/Beautiful leather miu miu bag.jpg' },
+            { id: 'bag-5', name: 'Beautiful LV bag for work', price: 145000, category: 'bags', image: 'Bags/Beautiful LV bag for work.jpg' },
+            { id: 'bag-6', name: 'Black high quality Channel bag', price: 190000, category: 'bags', image: 'Bags/Black high quality Channel bag.jpg' },
+            { id: 'bag-7', name: 'Black leather Ferragamor bag', price: 155000, category: 'bags', image: 'Bags/Black leather Ferragamor bag.jpg' },
+            { id: 'bag-8', name: 'Black Tomford leather bag. Real leather', price: 155000, category: 'bags', image: 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg' },
+            { id: 'bag-9', name: 'Coach leather bag. Beautiful! Classy', price: 145000, category: 'bags', image: 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg' },
+            { id: 'bag-10', name: 'Fine Gucci bag. Real leather', price: 145000, category: 'bags', image: 'Bags/Fine Gucci bag. Real leather. .jpg' },
+            { id: 'bag-11', name: 'Gold  Bulgari leather bag. Extremely pretty', price: 165000, category: 'bags', image: 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg' },
+            { id: 'bag-12', name: 'Gold Valentino bag', price: 145000, category: 'bags', image: 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg' },
+            { id: 'bag-13', name: 'Leather LV bag for work', price: 145000, category: 'bags', image: 'Bags/Leather LV bag for work.jpg' },
+            { id: 'bag-14', name: 'Lovely Balenciaga cute bag', price: 145000, category: 'bags', image: 'Bags/Lovely Balenciaga cute bag..jpg' },
+            { id: 'bag-15', name: 'Lovely Burberry bag for work. All leather', price: 160000, category: 'bags', image: 'Bags/Lovely Burberry bag for work. All leather.jpg' },
+            { id: 'bag-16', name: 'Lovely Gucci bag. All leather', price: 155000, category: 'bags', image: 'Bags/Lovely Gucci bag. All leather.jpg' },
+            { id: 'bag-17', name: 'Navy Blue Gucci bag', price: 145000, category: 'bags', image: 'Bags/Navy Blue Gucci bag.jpg' },
+            { id: 'bag-18', name: 'Real snake skin leather. Excellently beautiful', price: 180000, category: 'bags', image: 'Bags/Real snake skin leather. Excellently beautiful.jpg' },
+            { id: 'bag-19', name: 'Roberta carvalli patent bag', price: 135000, category: 'bags', image: 'Bags/Roberta carvalli patent bag.jpg' },
+            { id: 'bag-20', name: 'Versace bag,  comes in various colours', price: 120000, category: 'bags', image: 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg' },
+            { id: 'bag-21', name: 'Wine colour Burberry leather bag', price: 145000, category: 'bags', image: 'Bags/Wine colour Burberry leather bag.jpg' },
         ];
 
         function handleSearchEnter(event) {
