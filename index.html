@@ -213,15 +213,18 @@
         
         .click-me-text {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             background: rgba(0, 0, 0, 0.7);
             color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 500;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: 600;
             z-index: 10;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
         @keyframes modalSlideIn {
@@ -279,11 +282,12 @@
                 
                 <!-- Centered Logo -->
                 <div class="absolute left-1/2 transform -translate-x-1/2">
-                    <img src="https://via.placeholder.com/40x40/000000/FFFFFF?text=FS" alt="FlourishSen Logo" class="w-10 h-10 rounded cursor-pointer" onclick="showPage('home')">
+                    <img src="Logo/LOGO 4.png" alt="FlourishSen Logo" class="w-10 h-10 rounded cursor-pointer" onclick="showPage('home')">
                 </div>
                 
                 <!-- Right navigation for desktop -->
                 <div class="hidden md:flex items-center gap-6">
+                    <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">Home</button>
                     <button onclick="showPage('about')" class="text-gray-600 hover:text-gray-800">About</button>
                     <button onclick="showPage('contact')" class="text-gray-600 hover:text-gray-800">Contact Us</button>
                 </div>
@@ -340,15 +344,15 @@
 
     <!-- WhatsApp Sticky Icon -->
     <div class="whatsapp-sticky">
-        <button onclick="toggleWhatsApp()" class="bg-green-500 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 animate-pulse">
-            <img src="https://via.placeholder.com/30x30/25D366/FFFFFF?text=WA" alt="WhatsApp" class="w-6 h-6">
+        <button onclick="toggleWhatsApp()" class="bg-green-10 p-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 animate-pulse">
+            <img src="Logo/LOGO 4.png" alt="WhatsApp" class="w-6 h-6">
         </button>
     </div>
 
     <!-- WhatsApp Chat -->
     <div class="whatsapp-chat" id="whatsappChat">
         <div class="chat-header">
-            <img src="https://via.placeholder.com/40x40/25D366/FFFFFF?text=AI" alt="AI Assistant" class="w-8 h-8 rounded-full">
+            <img src="Logo/LOGO 4.png" alt="AI Assistant" class="w-8 h-8 rounded-full">
             <div>
                 <div class="font-semibold">FlourishSen AI</div>
                 <div class="text-xs opacity-75">Online</div>
@@ -357,7 +361,7 @@
         </div>
         <div class="chat-body" id="chatBody">
             <div class="message bot">
-                Hi! I'm your FlourishSen AI assistant. Ask me about prices, product availability, or anything else!
+                Hi! I'm your FlourishSen. Ask me about prices, product availability, or anything else!
             </div>
         </div>
         <div class="chat-input">
@@ -424,14 +428,14 @@
         <section class="max-w-7xl mx-auto px-4 py-12">
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow" onclick="showPage('trending')">
-                    <img src="https://via.placeholder.com/400x300/2C2C2C/FFFFFF?text=Trending+Items" alt="Trending" class="w-full h-64 object-cover">
+                    <img src="Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg" alt="Trending" class="w-full h-64 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">Trending</h3>
                         <p class="text-gray-600">Discover what's hot right now</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow" onclick="showPage('new-in')">
-                    <img src="https://via.placeholder.com/400x300/404040/FFFFFF?text=New+Arrivals" alt="New In" class="w-full h-64 object-cover">
+                    <img src="Clothes/Beautiful for work.jpg" alt="New In" class="w-full h-64 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">New In</h3>
                         <p class="text-gray-600">Fresh arrivals just for you</p>
@@ -480,27 +484,27 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('trending-1', 'Stylish Jacket', 25000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1', 'A premium stylish jacket perfect for any occasion. Made with high-quality materials and modern design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('trending-1', 'Beautiful Fendi bag, Classy. All leather', 145000, 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg', 'A premium stylish jacket perfect for any occasion. Made with high-quality materials and modern design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1" alt="Trending Item 1" class="w-full h-64 object-cover">
+                    <img src="Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg" alt="Beautiful Fendi bag, Classy. All leather" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Stylish Jacket</h3>
-                        <p class="text-gray-600">₦25,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Fendi bag, Classy. All leather</h3>
+                        <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('trending-1', 'Stylish Jacket', 25000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('trending-1', 'Stylish Jacket', 25000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('trending-1', 'Beautiful Fendi bag, Classy. All leather', 145000, 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('trending-1', 'Beautiful Fendi bag, Classy. All leather', 145000, 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('trending-2', 'Designer Dress', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2', 'An elegant designer dress that combines style and comfort. Perfect for special occasions and events.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('trending-2', 'Beautiful Gucci bag', 155000, 'Bags/Beautiful Gucci bag.jpg', 'An elegant designer dress that combines style and comfort. Perfect for special occasions and events.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2" alt="Trending Item 2" class="w-full h-64 object-cover">
+                    <img src="Bags/Beautiful Gucci bag.jpg" alt="Beautiful Gucci bag" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Designer Dress</h3>
-                        <p class="text-gray-600">₦35,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Gucci bag</h3>
+                        <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('trending-2', 'Designer Dress', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('trending-2', 'Designer Dress', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('trending-2', 'Beautiful Gucci bag', 155000, 'Bags/Beautiful Gucci bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('trending-2', 'Beautiful Gucci bag', 155000, 'Bags/Beautiful Gucci bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -543,9 +547,9 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-zoom" onclick="openProductModal('new-1', 'Fresh Blazer', 40000, 'Clothes/All white pretty dress. Available only in size 44.jpg', 'A fresh and modern blazer perfect for professional settings. Made with premium fabric and contemporary design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('new-1', 'Fresh Blazer', 40000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1', 'A fresh and modern blazer perfect for professional settings. Made with premium fabric and contemporary design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="Clothes/All white pretty dress. Available only in size 44.jpg" alt="New Item 1" class="w-full h-64 object-cover">
+                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1" alt="New Item 1" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Fresh Blazer</h3>
                         <p class="text-gray-600">₦40,000</p>
@@ -755,47 +759,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt', 'A premium designer shirt crafted from high-quality materials. Perfect for both casual and formal occasions.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt" alt="Designer Shirt" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Designer Shirt</h3>
                         <p class="text-gray-600">₦18,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-1', 'Designer Shirt', 18000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('clothing-2', 'Elegant Dress', 32000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress', 'An elegant dress that combines style and comfort. Perfect for special occasions and events.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress" alt="Elegant Dress" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Elegant Dress</h3>
                         <p class="text-gray-600">₦32,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('clothing-2', 'Elegant Dress', 32000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('clothing-2', 'Elegant Dress', 32000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-2', 'Elegant Dress', 32000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-2', 'Elegant Dress', 32000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('clothing-3', 'Casual Jeans', 22000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans', 'High-quality casual jeans with perfect fit and durability. Available in multiple sizes and washes.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans" alt="Casual Jeans" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Casual Jeans</h3>
                         <p class="text-gray-600">₦22,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('clothing-3', 'Casual Jeans', 22000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('clothing-3', 'Casual Jeans', 22000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-3', 'Casual Jeans', 22000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-3', 'Casual Jeans', 22000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('clothing-4', 'Formal Blazer', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer', 'A sophisticated formal blazer designed for the modern professional. Features a tailored fit and premium materials.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer" alt="Formal Blazer" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Formal Blazer</h3>
                         <p class="text-gray-600">₦45,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('clothing-4', 'Formal Blazer', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('clothing-4', 'Formal Blazer', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-4', 'Formal Blazer', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-4', 'Formal Blazer', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -814,47 +822,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes', 'High-performance running shoes designed for comfort and durability. Perfect for daily runs and athletic activities.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes" alt="Running Shoes" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Running Shoes</h3>
                         <p class="text-gray-600">₦28,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes', 'Elegant formal shoes crafted from premium leather. Perfect for business meetings and special occasions.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes" alt="Formal Shoes" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Formal Shoes</h3>
                         <p class="text-gray-600">₦35,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers', 'Comfortable casual sneakers for everyday wear. Features breathable materials and modern design.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers" alt="Casual Sneakers" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Casual Sneakers</h3>
                         <p class="text-gray-600">₦25,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels" alt="High Heels" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">High Heels</h3>
                         <p class="text-gray-600">₦30,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -873,47 +885,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses', 'Stylish designer sunglasses with UV protection and modern design. Perfect for sunny days and outdoor activities.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses" alt="Sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Designer Sunglasses</h3>
                         <p class="text-gray-600">₦15,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses', 'Comfortable reading glasses with anti-glare coating. Perfect for reading and close-up work.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses" alt="Reading Glasses" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Reading Glasses</h3>
                         <p class="text-gray-600">₦8,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses', 'Blue light blocking glasses to reduce eye strain from digital screens. Perfect for computer work and gaming.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses" alt="Blue Light Glasses" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Blue Light Glasses</h3>
                         <p class="text-gray-600">₦12,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses" alt="Prescription Glasses" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Prescription Glasses</h3>
                         <p class="text-gray-600">₦20,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -932,47 +948,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch', 'A premium luxury timepiece that showcases precision and elegance. Features Swiss movement and water-resistant design.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch" alt="Luxury Watch" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Luxury Watch</h3>
                         <p class="text-gray-600">₦85,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch', 'Advanced smart watch with fitness tracking, notifications, and long battery life. Perfect for the tech-savvy individual.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch" alt="Smart Watch" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Smart Watch</h3>
                         <p class="text-gray-600">₦45,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch', 'Durable sports watch built for active lifestyles. Water-resistant with shock protection and multiple sport modes.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch" alt="Sports Watch" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Sports Watch</h3>
                         <p class="text-gray-600">₦25,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch', 'Timeless classic watch with traditional design and reliable movement. Perfect for everyday wear and formal occasions.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch" alt="Classic Watch" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Classic Watch</h3>
                         <p class="text-gray-600">₦35,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -991,47 +1011,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('bag-1', 'Designer Handbag', 42000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag', 'An exquisite designer handbag that combines functionality with style. Features premium leather and sophisticated design.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag" alt="Handbag" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Designer Handbag</h3>
                         <p class="text-gray-600">₦42,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-1', 'Designer Handbag', 42000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-1', 'Designer Handbag', 42000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-1', 'Designer Handbag', 42000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-1', 'Designer Handbag', 42000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('bag-2', 'Travel Backpack', 28000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack', 'Durable travel backpack perfect for adventures and daily use. Features multiple compartments and comfortable straps.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack" alt="Backpack" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Travel Backpack</h3>
                         <p class="text-gray-600">₦28,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-2', 'Travel Backpack', 28000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-2', 'Travel Backpack', 28000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-2', 'Travel Backpack', 28000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-2', 'Travel Backpack', 28000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('bag-3', 'Crossbody Bag', 18000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag', 'Stylish crossbody bag perfect for hands-free convenience. Compact design with adjustable strap and secure closure.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag" alt="Crossbody Bag" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Crossbody Bag</h3>
                         <p class="text-gray-600">₦18,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-3', 'Crossbody Bag', 18000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-3', 'Crossbody Bag', 18000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-3', 'Crossbody Bag', 18000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-3', 'Crossbody Bag', 18000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('bag-4', 'Leather Tote Bag', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag', 'Spacious leather tote bag perfect for work and shopping. Features genuine leather construction and elegant design.')">
+                    <div class="click-me-text">Click me</div>
                     <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag" alt="Tote Bag" class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Leather Tote Bag</h3>
                         <p class="text-gray-600">₦35,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('bag-4', 'Leather Tote Bag', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('bag-4', 'Leather Tote Bag', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Leather Tote Bag', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Leather Tote Bag', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -3640,5 +3664,5 @@
             loadStoredData(); // Load cart and wishlist from localStorage
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98e6ceafd64c882b',t:'MTc2MDQ0MjA4NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98e6e50203753619',t:'MTc2MDQ0Mjk5OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
