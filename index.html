@@ -273,7 +273,7 @@
 
     <!-- Main Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-4">
+        <div class="max-w-7xl mx-auto px-6 py-6">
             <div class="flex justify-between items-center">
                 <!-- Left brand name -->
                 <div class="flex items-center gap-3">
@@ -316,6 +316,7 @@
                     <button onclick="showPageAndCloseMobileMenu('watches')" class="text-left text-gray-600 hover:text-gray-800 py-2">Watches</button>
                     <button onclick="showPageAndCloseMobileMenu('bags')" class="text-left text-gray-600 hover:text-gray-800 py-2">Bags</button>
                     <div class="border-t border-gray-200 pt-3 mt-3">
+                        <button onclick="showPageAndCloseMobileMenu('home')" class="text-left text-gray-600 hover:text-gray-800 py-2 block w-full">Home</button>
                         <button onclick="showPageAndCloseMobileMenu('about')" class="text-left text-gray-600 hover:text-gray-800 py-2 block w-full">About</button>
                         <button onclick="showPageAndCloseMobileMenu('contact')" class="text-left text-gray-600 hover:text-gray-800 py-2 block w-full">Contact Us</button>
                         <button onclick="showPageAndCloseMobileMenu('help')" class="text-left text-gray-600 hover:text-gray-800 py-2 block w-full">Help</button>
@@ -354,7 +355,7 @@
         <div class="chat-header">
             <img src="Logo/LOGO 4.png" alt="AI Assistant" class="w-8 h-8 rounded-full">
             <div>
-                <div class="font-semibold">FlourishSen AI</div>
+                <div class="font-semibold">FlourishSen</div>
                 <div class="text-xs opacity-75">Online</div>
             </div>
             <button onclick="toggleWhatsApp()" class="ml-auto text-white">✕</button>
@@ -442,7 +443,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow" onclick="showPage('explore-more')">
-                    <img src="https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Explore+More" alt="Explore More" class="w-full h-64 object-cover">
+                    <img src="Glasses/12.jpg" alt="Explore More" class="w-full h-64 object-cover">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-800 mb-2">Explore More</h3>
                         <p class="text-gray-600">Curated selections for you</p>
@@ -610,51 +611,51 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-1', 'Luxury Coat', 55000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Selected+Item+1', 'A luxurious coat crafted from the finest materials. Perfect for special occasions and cold weather with elegant styling.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-1', 'Luxury Coat', 75000, 'Glasses/1.jpg', 'A luxurious coat crafted from the finest materials. Perfect for special occasions and cold weather with elegant styling.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Selected+Item+1" alt="Selected Item 1" class="w-full h-64 object-cover">
+                    <img src="Glasses/1.jpg" alt="Selected Item 1" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Luxury Coat</h3>
-                        <p class="text-gray-600">₦55,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('explore-1', 'Luxury Coat', 55000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('explore-1', 'Luxury Coat', 55000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Selected+Item+1')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('explore-1', 'Original Top designers sunglasses', 75000, 'Glasses/1.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('explore-1', 'Top designers sunglasses', 75000, 'Glasses/1.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-2', 'Designer Bag', 30000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Selected+Item+2', 'An exquisite designer bag that combines functionality with style. Features premium leather and sophisticated design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-2', 'Original Top designers sunglasses', 75000, 'Glasses/10.jpg', 'An exquisite designer bag that combines functionality with style. Features premium leather and sophisticated design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Selected+Item+2" alt="Selected Item 2" class="w-full h-64 object-cover">
+                    <img src="Glasses/10.jpg" alt="Original Top designers sunglasses 1" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Designer Bag</h3>
-                        <p class="text-gray-600">₦30,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses </h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('explore-2', 'Designer Bag', 30000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('explore-2', 'Designer Bag', 30000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Selected+Item+2')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('explore-2', 'Original Top designers sunglasses ', 75000, 'Glasses/10.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('explore-2', 'Original Top designers sunglasses ', 75000, 'Glasses/10.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-3', 'Premium Watch', 45000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Selected+Item+3', 'A premium timepiece that showcases precision and elegance. Features Swiss movement and water-resistant design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-3', 'Original Top designers sunglasses', 45000, 'Glasses/11.jpg', 'A premium timepiece that showcases precision and elegance. Features Swiss movement and water-resistant design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Selected+Item+3" alt="Selected Item 3" class="w-full h-64 object-cover">
+                    <img src="Glasses/11.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Premium Watch</h3>
-                        <p class="text-gray-600">₦45,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('explore-3', 'Premium Watch', 45000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('explore-3', 'Premium Watch', 45000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Selected+Item+3')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('explore-3', 'Original Top designers sunglasses', 75000, 'Glasses/11.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('explore-3', 'Original Top designers sunglasses', 45000, 'Glasses/11.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-4', 'Stylish Sunglasses', 8000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4', 'Stylish sunglasses with UV protection and modern design. Perfect for sunny days and outdoor activities.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('explore-4', 'Stylish Sunglasses', 75000, 'Glasses/12.jpg', 'Stylish sunglasses with UV protection and modern design. Perfect for sunny days and outdoor activities.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4" alt="Selected Item 4" class="w-full h-64 object-cover">
+                    <img src="Glasses/12.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Stylish Sunglasses</h3>
-                        <p class="text-gray-600">₦8,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('explore-4', 'Stylish Sunglasses', 8000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('explore-4', 'Stylish Sunglasses', 8000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('explore-4', 'Original Top designers sunglasses', 75000, 'Glasses/12.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('explore-4', 'Original Top designers sunglasses', 75000, 'Glasses/12.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -662,7 +663,7 @@
         </div>
     </div>
 
-    <!-- Brand Pages (Nike Clothing Example) -->
+    <!-- Brand Pages (Nike Clothing Example)
     <div id="nike-clothing" class="page">
         <div class="max-w-7xl mx-auto px-4 py-8">
             <div class="flex justify-between items-center mb-8">
@@ -671,13 +672,13 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Nike+Hoodie" alt="Nike Hoodie" class="w-full h-64 object-cover">
+                    <img src="Glasses/10.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Nike Hoodie</h3>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
                         <p class="text-gray-600">₦28,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="addToCart('nike-1', 'Nike Hoodie', 28000)" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="addToWishlist('nike-1', 'Nike Hoodie', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Nike+Hoodie')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('nike-1', 'Original Top designers sunglasses', 75000, 'Glasses/10.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="addToWishlist('nike-1', 'Original Top designers sunglasses', 28000, 'Glasses/10.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -686,7 +687,7 @@
                 <button onclick="showPage('explore-more')" class="bg-transparent border-2 border-gray-400 text-gray-700 px-6 py-3 rounded hover:border-gray-600 transition-colors">Explore More</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Jewelries Page -->
     <div id="jewelries" class="page">
@@ -826,8 +827,8 @@
                         <h3 class="font-semibold text-gray-800">It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available</h3>
                         <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available', 100000, 'Clothes/It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available', 100000, 'Clothes/It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-6', 'It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available', 100000, 'Clothes/It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-6', 'It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available', 100000, 'Clothes/It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -838,8 +839,8 @@
                         <h3 class="font-semibold text-gray-800">It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available</h3>
                         <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available', 100000, 'Clothes/It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available', 100000, 'Clothes/It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-7', 'It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available', 100000, 'Clothes/It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-7', 'It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available', 100000, 'Clothes/It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -850,8 +851,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely church wear. Sizes 46. 50 available</h3>
                         <p class="text-gray-600">₦90,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Lovely church wear. Sizes 46. 50 available', 90000, 'Clothes/Lovely church wear. Sizes 46. 50 available..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Lovely church wear. Sizes 46. 50 available', 90000, 'Clothes/Lovely church wear. Sizes 46. 50 available..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-8', 'Lovely church wear. Sizes 46. 50 available', 90000, 'Clothes/Lovely church wear. Sizes 46. 50 available..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-8', 'Lovely church wear. Sizes 46. 50 available', 90000, 'Clothes/Lovely church wear. Sizes 46. 50 available..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -862,8 +863,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely outing dresses. Very beautiful</h3>
                         <p class="text-gray-600">₦115,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Lovely outing dresses. Very beautiful', 115000, 'Clothes/Lovely outing dresses. Very beautifu.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Lovely outing dresses. Very beautiful', 115000, 'Clothes/Lovely outing dresses. Very beautifu.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-9', 'Lovely outing dresses. Very beautiful', 115000, 'Clothes/Lovely outing dresses. Very beautifu.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-9', 'Lovely outing dresses. Very beautiful', 115000, 'Clothes/Lovely outing dresses. Very beautifu.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -874,8 +875,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely party wear. Two piece. Very stylish! Size 48. 50 available</h3>
                         <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Lovely party wear. Two piece. Very stylish! Size 48. 50 available', 100000, 'Clothes/Lovely party wear. Two piece. Very stylish! Size 48. 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Lovely party wear. Two piece. Very stylish! Size 48. 50 available', 100000, 'Clothes/Lovely party wear. Two piece. Very stylish! Size 48. 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-10', 'Lovely party wear. Two piece. Very stylish! Size 48. 50 available', 100000, 'Clothes/Lovely party wear. Two piece. Very stylish! Size 48. 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-10', 'Lovely party wear. Two piece. Very stylish! Size 48. 50 available', 100000, 'Clothes/Lovely party wear. Two piece. Very stylish! Size 48. 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -886,8 +887,8 @@
                         <h3 class="font-semibold text-gray-800">Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50</h3>
                         <p class="text-gray-600">₦100,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50', 100000, 'Clothes/Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50', 100000, 'Clothes/Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-11', 'Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50', 100000, 'Clothes/Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-11', 'Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50', 100000, 'Clothes/Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -898,8 +899,8 @@
                         <h3 class="font-semibold text-gray-800">Suitable for church , wedding and other functions. Fabric extremely good</h3>
                         <p class="text-gray-600">₦115,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Suitable for church , wedding and other functions. Fabric extremely good', 115000, 'Clothes/Suitable for church , wedding and other functions. Fabric extremely good.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Suitable for church , wedding and other functions. Fabric extremely good', 115000, 'Clothes/Suitable for church , wedding and other functions. Fabric extremely good.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-12', 'Suitable for church , wedding and other functions. Fabric extremely good', 115000, 'Clothes/Suitable for church , wedding and other functions. Fabric extremely good.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-12', 'Suitable for church , wedding and other functions. Fabric extremely good', 115000, 'Clothes/Suitable for church , wedding and other functions. Fabric extremely good.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -910,8 +911,8 @@
                         <h3 class="font-semibold text-gray-800">Two pieces outing wear. Lovely sizes 44 to 50 available</h3>
                         <p class="text-gray-600">₦80,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('clothing-5', 'Two pieces outing wear. Lovely sizes 44 to 50 available', 80000, 'Clothes/Two pieces outing wear. Lovely sizes 44 to 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('clothing-5', 'Two pieces outing wear. Lovely sizes 44 to 50 available', 80000, 'Clothes/Two pieces outing wear. Lovely sizes 44 to 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('clothing-13', 'Two pieces outing wear. Lovely sizes 44 to 50 available', 80000, 'Clothes/Two pieces outing wear. Lovely sizes 44 to 50 available.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('clothing-13', 'Two pieces outing wear. Lovely sizes 44 to 50 available', 80000, 'Clothes/Two pieces outing wear. Lovely sizes 44 to 50 available.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -930,51 +931,243 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes', 'High-performance running shoes designed for comfort and durability. Perfect for daily runs and athletic activities.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-1', 'Beautiful Italian Cerruti sandals', 110000, 'Shoes/Beautiful Italian Cerruti sandals.jpg', 'High-performance running shoes designed for comfort and durability. Perfect for daily runs and athletic activities.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes" alt="Running Shoes" class="w-full h-64 object-cover">
+                    <img src="Shoes/Beautiful Italian Cerruti sandals.jpg" alt="Beautiful Italian Cerruti sandals" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Running Shoes</h3>
-                        <p class="text-gray-600">₦28,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Italian Cerruti sandals</h3>
+                        <p class="text-gray-600">₦110,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('shoes-1', 'Running Shoes', 28000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-1', 'Beautiful Italian Cerruti sandals', 110000, 'Shoes/Beautiful Italian Cerruti sandals.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-1', 'Beautiful Italian Cerruti sandals', 110000, 'Shoes/Beautiful Italian Cerruti sandals.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes', 'Elegant formal shoes crafted from premium leather. Perfect for business meetings and special occasions.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-2', 'Beautiful Italian sandals. Cerruti design', 110000, 'Shoes/Beautiful Italian sandals. Cerruti design.jpg', 'Elegant formal shoes crafted from premium leather. Perfect for business meetings and special occasions.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes" alt="Formal Shoes" class="w-full h-64 object-cover">
+                    <img src="Shoes/Beautiful Italian sandals. Cerruti design.jpg" alt="Beautiful Italian sandals. Cerruti design" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Formal Shoes</h3>
-                        <p class="text-gray-600">₦35,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Italian sandals. Cerruti design</h3>
+                        <p class="text-gray-600">₦110,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('shoes-2', 'Formal Shoes', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-2', 'Beautiful Italian sandals. Cerruti design', 110000, 'Shoes/Beautiful Italian sandals. Cerruti design.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-2', 'Beautiful Italian sandals. Cerruti design', 110000, 'Shoes/Beautiful Italian sandals. Cerruti design.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers', 'Comfortable casual sneakers for everyday wear. Features breathable materials and modern design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-3', 'Italian Cerruti sandals, Beautiful! Durable', 110000, 'Shoes/Italian Cerruti sandals 110,000. Beautiful! Durable.jpg', 'Comfortable casual sneakers for everyday wear. Features breathable materials and modern design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers" alt="Casual Sneakers" class="w-full h-64 object-cover">
+                    <img src="Shoes/Italian Cerruti sandals 110,000. Beautiful! Durable.jpg" alt="Italian Cerruti sandals, Beautiful! Durable" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Casual Sneakers</h3>
-                        <p class="text-gray-600">₦25,000</p>
+                        <h3 class="font-semibold text-gray-800">Italian Cerruti sandals, Beautiful! Durable</h3>
+                        <p class="text-gray-600">₦110,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('shoes-3', 'Casual Sneakers', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-3', 'Italian Cerruti sandals, Beautiful! Durable', 110000, 'Shoes/Italian Cerruti sandals 110,000. Beautiful! Durable.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-3', 'Italian Cerruti sandals, Beautiful! Durable', 110000, 'Shoes/Italian Cerruti sandals 110,000. Beautiful! Durable.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Wine colours Cerruti sandals', 110000, 'Shoes/Wine colours Cerruti sandals.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels" alt="High Heels" class="w-full h-64 object-cover">
+                    <img src="Shoes/Wine colours Cerruti sandals.jpg" alt="Wine colours Cerruti sandals" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">High Heels</h3>
-                        <p class="text-gray-600">₦30,000</p>
+                        <h3 class="font-semibold text-gray-800">Wine colours Cerruti sandals</h3>
+                        <p class="text-gray-600">₦110,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('shoes-4', 'High Heels', 30000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('shoes-4', 'Wine colours Cerruti sandals', 110000, 'Shoes/Wine colours Cerruti sandals.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-4', 'Wine colours Cerruti sandals', 110000, 'Shoes/Wine colours Cerruti sandals.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Wine colours Cerruti sandals', 95000, 'Shoes/Beautiful Valentino sandals.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Beautiful Valentino sandals.jpg" alt="Beautiful Valentino sandals" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Beautiful Valentino sandals</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-5', 'Beautiful Valentino sandals', 95000, 'Shoes/Beautiful Valentino sandals.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-5', 'Beautiful Valentino sandals', 95000, 'Shoes/Beautiful Valentino sandals.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Beautiful! Classy! Eyecatching', 95000, 'Shoes/Beautiful! Classy! Eyecatching.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Beautiful! Classy! Eyecatching.jpg" alt="Beautiful! Classy! Eyecatching" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Beautiful! Classy! Eyecatching</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-6', 'Beautiful! Classy! Eyecatching', 95000, 'Shoes/Beautiful! Classy! Eyecatching.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-6', 'Beautiful! Classy! Eyecatching', 95000, 'Shoes/Beautiful! Classy! Eyecatching.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Black Fendi slip on. Moderate heel', 95000, 'Shoes/Black Fendi slip on. Moderate heel.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Black Fendi slip on. Moderate heel.jpg" alt="Black Fendi slip on. Moderate heel" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Black Fendi slip on. Moderate heel</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-7', 'Black Fendi slip on. Moderate heel', 95000, 'Shoes/Black Fendi slip on. Moderate heel.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-7', 'Black Fendi slip on. Moderate heel', 95000, 'Shoes/Black Fendi slip on. Moderate heel.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Black Gucci sandals', 95000, 'Shoes/Black Gucci sandals.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Black Gucci sandals.jpg" alt="Black Gucci sandals" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Black Gucci sandals</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-8', 'Black Gucci sandals', 95000, 'Shoes/Black Gucci sandals.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-8', 'Black Gucci sandals', 95000, 'Shoes/Black Gucci sandals.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Black Gucci sandals', 100000, 'Shoes/Black Gucci sandalss.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Black Gucci sandalss.jpg" alt="Black Gucci sandals" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Black Gucci sandals</h3>
+                        <p class="text-gray-600">₦100,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-9', 'Black Gucci sandals', 100000, 'Shoes/Black Gucci sandalss.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-9', 'Black Gucci sandals', 100000, 'Shoes/Black Gucci sandalss.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Black lovely slip on', 85000, 'Shoes/Black lovely slip on.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Black lovely slip on.jpg" alt="Black lovely slip on" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Black lovely slip on</h3>
+                        <p class="text-gray-600">₦85,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-10', 'Black lovely slip on', 85000, 'Shoes/Black lovely slip on.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-10', 'Black lovely slip on', 85000, 'Shoes/Black lovely slip on.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Blue lovely elegant slippers', 85000, 'Shoes/Blue lovely elegant slippers.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Blue lovely elegant slippers.jpg" alt="Blue lovely elegant slippers" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Blue lovely elegant slippers</h3>
+                        <p class="text-gray-600">₦85,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-11', 'Blue lovely elegant slippers', 85000, 'Shoes/Blue lovely elegant slippers.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-11', 'Blue lovely elegant slippers', 85000, 'Shoes/Blue lovely elegant slippers.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Blue lovely elegant slippers', 95000, 'Shoes/Blue lovely elegant slippers.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Brown moschino sandals.jpg" alt="Brown moschino sandals" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Brown moschino sandals</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-12', 'Brown moschino sandals', 95000, 'Shoes/Brown moschino sandals.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-12', 'Brown moschino sandals', 95000, 'Shoes/Brown moschino sandals.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('Gold Silver Versace shoes. Party wear! Comfortable', 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable', 95000, 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg" alt="Gold Silver Versace shoes. Party wear! Comfortable" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Gold Silver Versace shoes. Party wear! Comfortable</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-13', 'Gold Silver Versace shoes. Party wear! Comfortable', 95000, 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-13', 'Gold Silver Versace shoes. Party wear! Comfortable', 95000, 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('Jimmy cho gold sandals. Classy', 'Shoes/Jimmy cho gold sandals. Classy.jpg', 95000, 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Jimmy cho gold sandals. Classy.jpg" alt="Jimmy cho gold sandals. Classy" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Jimmy cho gold sandals. Classy</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-14', 'Jimmy cho gold sandals. Classy', 95000, 'Shoes/Jimmy cho gold sandals. Classy.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-14', 'Jimmy cho gold sandals. Classy', 95000, 'Shoes/Jimmy cho gold sandals. Classy.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('Luxurious Channel shoes. Real leather', 'Shoes/Luxurious Channel shoes. Real leather', 95000, 'Shoes/Luxurious Channel shoes. Real leather.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Luxurious Channel shoes. Real leather.jpg" alt="Luxurious Channel shoes. Real leather" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Luxurious Channel shoes. Real leather</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-15', 'Luxurious Channel shoes. Real leather', 95000, 'Shoes/Luxurious Channel shoes. Real leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-15', 'Luxurious Channel shoes. Real leather', 95000, 'Shoes/Luxurious Channel shoes. Real leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('Orange Luxury shoe. Comfortable', 'Orange Luxury shoe. Comfortable', 85000, 'Shoes/Orange Luxury shoe. Comfortable.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Orange Luxury shoe. Comfortable.jpg" alt="Orange Luxury shoe. Comfortable" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Orange Luxury shoe. Comfortable</h3>
+                        <p class="text-gray-600">₦85,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-16', 'Orange Luxury shoe. Comfortable', 85000, 'Shoes/Orange Luxury shoe. Comfortable.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-16', 'Orange Luxury shoe. Comfortable', 85000, 'Shoes/Orange Luxury shoe. Comfortable.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Red channel slippers', 95000, 'Shoes/Red channel slippers.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Red channel slippers.jpg" alt="Red channel slippers" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Red channel slippers</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-17', 'Red channel slippers', 95000, 'Shoes/Red channel slippers.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-17', 'Red channel slippers', 95000, 'Shoes/Red channel slippers.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Red miu miu slippers! Comes in various colours! Lovely', 100000, 'Shoes/Red miu miu slippers! Comes in various colours! Lovely.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Red miu miu slippers! Comes in various colours! Lovely.jpg" alt="Red miu miu slippers! Comes in various colours! Lovely" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Red miu miu slippers! Comes in various colours! Lovely</h3>
+                        <p class="text-gray-600">₦100,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-18', 'Red miu miu slippers! Comes in various colours! Lovely', 100000, 'Shoes/Red miu miu slippers! Comes in various colours! Lovely.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-18', 'Red miu miu slippers! Comes in various colours! Lovely', 100000, 'Shoes/Red miu miu slippers! Comes in various colours! Lovely.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Red Muschino slip on. Beautiful', 95000, 'Shoes/Red Muschino slip on. Beautiful.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/Red Muschino slip on. Beautiful.jpg" alt="Red Muschino slip on. Beautiful" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Red Muschino slip on. Beautiful</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-19', 'Red Muschino slip on. Beautiful', 95000, 'Shoes/Red Muschino slip on. Beautiful.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-19', 'Red Muschino slip on. Beautiful', 95000, 'Shoes/Red Muschino slip on. Beautiful.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('shoes-4', 'Classy channel shoes', 95000, 'Shoes/These comes in various colours. Classy channel shoes.jpg', 'Stylish high heels that combine elegance with comfort. Perfect for formal events and special occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Shoes/These comes in various colours. Classy channel shoes.jpg" alt="Classy channel shoes" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Classy channel shoes</h3>
+                        <p class="text-gray-600">₦95,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('shoes-20', 'Classy channel shoes', 95000, 'Shoes/These comes in various colours. Classy channel shoes.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('shoes-20', 'Classy channel shoes', 95000, 'Shoes/These comes in various colours. Classy channel shoes.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -993,51 +1186,195 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses', 'Stylish designer sunglasses with UV protection and modern design. Perfect for sunny days and outdoor activities.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-1', 'Original Top designers sunglasses', 75000, 'Glasses/1.jpg', 'Stylish designer sunglasses with UV protection and modern design. Perfect for sunny days and outdoor activities.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses" alt="Sunglasses" class="w-full h-64 object-cover">
+                    <img src="Glasses/1.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Designer Sunglasses</h3>
-                        <p class="text-gray-600">₦15,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('glasses-1', 'Designer Sunglasses', 15000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-1', 'Original Top designers sunglasses', 75000, 'Glasses/1.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-1', 'Original Top designers sunglasses', 75000, 'Glasses/1.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses', 'Comfortable reading glasses with anti-glare coating. Perfect for reading and close-up work.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-2', 'Original Top designers sunglasses', 75000, 'Glasses/10.jpg', 'Comfortable reading glasses with anti-glare coating. Perfect for reading and close-up work.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses" alt="Reading Glasses" class="w-full h-64 object-cover">
+                    <img src="Glasses/10.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Reading Glasses</h3>
-                        <p class="text-gray-600">₦8,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('glasses-2', 'Reading Glasses', 8000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-2', 'Original Top designers sunglasses', 75000, 'Glasses/10.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-2', 'Original Top designers sunglasses', 75000, 'Glasses/10.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses', 'Blue light blocking glasses to reduce eye strain from digital screens. Perfect for computer work and gaming.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-3', 'Blue Light Glasses', 75000, 'Glasses/11.jpg', 'Blue light blocking glasses to reduce eye strain from digital screens. Perfect for computer work and gaming.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses" alt="Blue Light Glasses" class="w-full h-64 object-cover">
+                    <img src="Glasses/11.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Blue Light Glasses</h3>
-                        <p class="text-gray-600">₦12,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('glasses-3', 'Blue Light Glasses', 12000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-3', 'Original Top designers sunglasses', 75000, 'Glasses/11.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-3', 'Original Top designers sunglasses', 75000, 'Glasses/11.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/12.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses" alt="Prescription Glasses" class="w-full h-64 object-cover">
+                    <img src="Glasses/12.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Prescription Glasses</h3>
-                        <p class="text-gray-600">₦20,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('glasses-4', 'Prescription Glasses', 20000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/12.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/12.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/13.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/13.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-5', 'Original Top designers sunglasses', 75000, 'Glasses/13.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-5', 'Original Top designers sunglasses', 75000, 'Glasses/13.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/14.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/14.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-6', 'Original Top designers sunglasses', 75000, 'Glasses/14.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-6', 'Original Top designers sunglasses', 75000, 'Glasses/14.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/15.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/15.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-7', 'Original Top designers sunglasses', 75000, 'Glasses/15.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-7', 'Original Top designers sunglasses', 75000, 'Glasses/15.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/16.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/16.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-8', 'Original Top designers sunglasses', 75000, 'Glasses/16.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-8', 'Original Top designers sunglasses', 75000, 'Glasses/16.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/2.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/2.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-9', 'Original Top designers sunglasses', 75000, 'Glasses/2.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-9', 'Original Top designers sunglasses', 75000, 'Glasses/2.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/3.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/3.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-10', 'Original Top designers sunglasses', 75000, 'Glasses/3.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-10', 'Original Top designers sunglasses', 75000, 'Glasses/3.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/4.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/4.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-11', 'Original Top designers sunglasses', 75000, 'Glasses/4.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-11', 'Original Top designers sunglasses', 75000, 'Glasses/4.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/5.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/5.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-12', 'Original Top designers sunglasses', 75000, 'Glasses/5.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-12', 'Original Top designers sunglasses', 75000, 'Glasses/5.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/6.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/6.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-13', 'Original Top designers sunglasses', 75000, 'Glasses/6.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-13', 'Original Top designers sunglasses', 75000, 'Glasses/6.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/7.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/7.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-14', 'Original Top designers sunglasses', 75000, 'Glasses/7.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-14', 'Original Top designers sunglasses', 75000, 'Glasses/7.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/8.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/8.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-15', 'Original Top designers sunglasses', 75000, 'Glasses/8.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-15', 'Original Top designers sunglasses', 75000, 'Glasses/8.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                     </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('glasses-4', 'Original Top designers sunglasses', 75000, 'Glasses/9.jpg', 'High-quality prescription glasses with customizable lenses. Professional eye care with stylish frames.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Glasses/9.jpg" alt="Original Top designers sunglasses" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Top designers sunglasses</h3>
+                        <p class="text-gray-600">₦75,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('glasses-16', 'Original Top designers sunglasses', 75000, 'Glasses/9.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('glasses-16', 'Original Top designers sunglasses', 75000, 'Glasses/9.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1056,51 +1393,63 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch', 'A premium luxury timepiece that showcases precision and elegance. Features Swiss movement and water-resistant design.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-1', 'Original Versace wristwatch', 160000, 'Watches/Original Versace wristwatch.jpg', 'A premium luxury timepiece that showcases precision and elegance. Features Swiss movement and water-resistant design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch" alt="Luxury Watch" class="w-full h-64 object-cover">
+                    <img src="Watches/Original Versace wristwatch.jpg" alt="Original Versace wristwatch" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Luxury Watch</h3>
-                        <p class="text-gray-600">₦85,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Versace wristwatch</h3>
+                        <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('watch-1', 'Luxury Watch', 85000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-1', 'Original Versace wristwatch', 160000, 'Watches/Original Versace wristwatch.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-1', 'Original Versace wristwatch', 160000, 'Watches/Original Versace wristwatch.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch', 'Advanced smart watch with fitness tracking, notifications, and long battery life. Perfect for the tech-savvy individual.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-2', 'Original Versace wristwatch', 160000, 'Watches/Varsa 2.jpg', 'Advanced smart watch with fitness tracking, notifications, and long battery life. Perfect for the tech-savvy individual.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch" alt="Smart Watch" class="w-full h-64 object-cover">
+                    <img src="Watches/Varsa 2.jpg" alt="Original Versace wristwatch" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Smart Watch</h3>
-                        <p class="text-gray-600">₦45,000</p>
+                        <h3 class="font-semibold text-gray-800">Original Versace wristwatch</h3>
+                        <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('watch-2', 'Smart Watch', 45000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-2', 'Original Versace wristwatch', 160000, 'Watches/Varsa 2.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-2', 'Original Versace wristwatch', 160000, 'Watches/Varsa 2.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch', 'Durable sports watch built for active lifestyles. Water-resistant with shock protection and multiple sport modes.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-3', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari spiral wrist watch.jpg', 'Durable sports watch built for active lifestyles. Water-resistant with shock protection and multiple sport modes.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch" alt="Sports Watch" class="w-full h-64 object-cover">
+                    <img src="Watches/Bulgari spiral wrist watch.jpg" alt="Bulgari spiral wrist watch" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Sports Watch</h3>
-                        <p class="text-gray-600">₦25,000</p>
+                        <h3 class="font-semibold text-gray-800">Bulgari spiral wrist watch</h3>
+                        <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('watch-3', 'Sports Watch', 25000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-3', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari spiral wrist watch.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-3', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari spiral wrist watch.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch', 'Timeless classic watch with traditional design and reliable movement. Perfect for everyday wear and formal occasions.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-4', 'Classic Watch', 160000, 'Watches/Bulgari 1.jpg', 'Timeless classic watch with traditional design and reliable movement. Perfect for everyday wear and formal occasions.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch" alt="Classic Watch" class="w-full h-64 object-cover">
+                    <img src="Watches/Bulgari 1.jpg" alt="Bulgari spiral wrist watch" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Classic Watch</h3>
-                        <p class="text-gray-600">₦35,000</p>
+                        <h3 class="font-semibold text-gray-800">Bulgari spiral wrist watch</h3>
+                        <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('watch-4', 'Classic Watch', 35000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('watch-4', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari 1.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-4', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari 1.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('watch-4', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari 2.jpg', 'Timeless classic watch with traditional design and reliable movement. Perfect for everyday wear and formal occasions.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Watches/Bulgari 2.jpg" alt="Bulgari spiral wrist watch" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Bulgari spiral wrist watch</h3>
+                        <p class="text-gray-600">₦160,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('watch-5', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari 2.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('watch-5', 'Bulgari spiral wrist watch', 160000, 'Watches/Bulgari 2.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1174,8 +1523,8 @@
                         <h3 class="font-semibold text-gray-800">Beautiful red bag! So classy</h3>
                         <p class="text-gray-600">₦190,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Beautiful red bag! So classy', 190000, 'Bags/Beautiful red bag! So classy.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Beautiful red bag! So classy', 190000, 'Bags/Beautiful red bag! So classy.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-5', 'Beautiful red bag! So classy', 190000, 'Bags/Beautiful red bag! So classy.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-5', 'Beautiful red bag! So classy', 190000, 'Bags/Beautiful red bag! So classy.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1186,8 +1535,8 @@
                         <h3 class="font-semibold text-gray-800">Black Gucci bag. Lovely</h3>
                         <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Black Gucci bag. Lovely', 160000, 'Bags/Black Gucci bag. Lovely.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Black Gucci bag. Lovely', 160000, 'Bags/Black Gucci bag. Lovely.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-6', 'Black Gucci bag. Lovely', 160000, 'Bags/Black Gucci bag. Lovely.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-6', 'Black Gucci bag. Lovely', 160000, 'Bags/Black Gucci bag. Lovely.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1198,8 +1547,8 @@
                         <h3 class="font-semibold text-gray-800">Black high quality Channel bag</h3>
                         <p class="text-gray-600">₦190,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Black high quality Channel bag', 190000, 'Bags/Black high quality Channel bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Black high quality Channel bag', 190000, 'Bags/Black high quality Channel bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-7', 'Black high quality Channel bag', 190000, 'Bags/Black high quality Channel bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-7', 'Black high quality Channel bag', 190000, 'Bags/Black high quality Channel bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -1210,8 +1559,8 @@
                         <h3 class="font-semibold text-gray-800">Black leather Ferragamor bag</h3>
                         <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Black leather Ferragamor bag', 155000, 'Bags/Black leather Ferragamor bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Black leather Ferragamor bag', 155000, 'Bags/Black leather Ferragamor bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-8', 'Black leather Ferragamor bag', 155000, 'Bags/Black leather Ferragamor bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-8', 'Black leather Ferragamor bag', 155000, 'Bags/Black leather Ferragamor bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -1222,8 +1571,8 @@
                         <h3 class="font-semibold text-gray-800">Black Tomford leather bag. Real leather. Durable. Classy</h3>
                         <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Black Tomford leather bag. Real leather. Durable. Classy', 155000, 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Black Tomford leather bag. Real leather. Durable. Classy', 155000, 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-9', 'Black Tomford leather bag. Real leather. Durable. Classy', 155000, 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-9', 'Black Tomford leather bag. Real leather. Durable. Classy', 155000, 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -1234,8 +1583,8 @@
                         <h3 class="font-semibold text-gray-800">Coach leather bag. Beautiful! Classy! Elegant</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Coach leather bag. Beautiful! Classy! Elegant', 145000, 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Coach leather bag. Beautiful! Classy! Elegant', 145000, 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-10', 'Coach leather bag. Beautiful! Classy! Elegant', 145000, 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-10', 'Coach leather bag. Beautiful! Classy! Elegant', 145000, 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1246,8 +1595,8 @@
                         <h3 class="font-semibold text-gray-800">Fine Gucci bag. Real leather</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Fine Gucci bag. Real leather', 145000, 'Bags/Fine Gucci bag. Real leather. .jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Fine Gucci bag. Real leather', 145000, 'Bags/Fine Gucci bag. Real leather. .jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-11', 'Fine Gucci bag. Real leather', 145000, 'Bags/Fine Gucci bag. Real leather. .jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-11', 'Fine Gucci bag. Real leather', 145000, 'Bags/Fine Gucci bag. Real leather. .jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1258,8 +1607,8 @@
                         <h3 class="font-semibold text-gray-800">Gold Bulgari leather bag. Extremely pretty. A must have for every woman</h3>
                         <p class="text-gray-600">₦165,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Gold Bulgari leather bag. Extremely pretty. A must have for every woman', 165000, 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Gold Bulgari leather bag. Extremely pretty. A must have for every woman', 165000, 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-12', 'Gold Bulgari leather bag. Extremely pretty. A must have for every woman', 165000, 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-12', 'Gold Bulgari leather bag. Extremely pretty. A must have for every woman', 165000, 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1270,8 +1619,8 @@
                         <h3 class="font-semibold text-gray-800">Gold Valentino bag. For occasions! Really elegant</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Gold Valentino bag. For occasions! Really elegant', 145000, 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Gold Valentino bag. For occasions! Really elegant', 145000, 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-13', 'Gold Valentino bag. For occasions! Really elegant', 145000, 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-13', 'Gold Valentino bag. For occasions! Really elegant', 145000, 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1282,8 +1631,8 @@
                         <h3 class="font-semibold text-gray-800">Leather LV bag for work</h3>
                         <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Leather LV bag for work', 155000, 'Bags/Leather LV bag for work.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Leather LV bag for work', 155000, 'Bags/Leather LV bag for work.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-14', 'Leather LV bag for work', 155000, 'Bags/Leather LV bag for work.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-14', 'Leather LV bag for work', 155000, 'Bags/Leather LV bag for work.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1294,8 +1643,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely Balenciaga cute bag</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-15', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-15', 'Lovely Balenciaga cute bag', 145000, 'Bags/Lovely Balenciaga cute bag..jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -1306,8 +1655,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely Burberry bag for work. All leather</h3>
                         <p class="text-gray-600">₦160,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-16', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-16', 'Lovely Burberry bag for work. All leather', 160000, 'Bags/Lovely Burberry bag for work. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1318,8 +1667,8 @@
                         <h3 class="font-semibold text-gray-800">Lovely Gucci bag. All leather</h3>
                         <p class="text-gray-600">₦155,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-17', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-17', 'Lovely Gucci bag. All leather', 155000, 'Bags/Lovely Gucci bag. All leather.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1330,8 +1679,8 @@
                         <h3 class="font-semibold text-gray-800">Navy Blue Gucci bag</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-18', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-18', 'Navy Blue Gucci bag', 145000, 'Bags/Navy Blue Gucci bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                      </div>
@@ -1342,8 +1691,8 @@
                         <h3 class="font-semibold text-gray-800">Real snake skin leather. Excellently beautiful</h3>
                         <p class="text-gray-600">₦180,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-19', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-19', 'Real snake skin leather. Excellently beautiful', 180000, 'Bags/Real snake skin leather. Excellently beautiful.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1354,8 +1703,8 @@
                         <h3 class="font-semibold text-gray-800">Roberta carvalli patent bag</h3>
                         <p class="text-gray-600">₦135,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-20', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-20', 'Roberta carvalli patent bag', 135000, 'Bags/Roberta carvalli patent bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1366,8 +1715,8 @@
                         <h3 class="font-semibold text-gray-800">Versace bag,  comes in various colours. Red. Gold. Black. Silver</h3>
                         <p class="text-gray-600">₦120,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Versace bag,  comes in various colours. Red. Gold. Black. Silver', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Versace bag,  comes in various colours. Red. Gold. Black. Silver', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-21', 'Versace bag,  comes in various colours. Red. Gold. Black. Silver', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-21', 'Versace bag,  comes in various colours. Red. Gold. Black. Silver', 120000, 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                     </div>
@@ -1378,8 +1727,8 @@
                         <h3 class="font-semibold text-gray-800">Wine colour Burberry leather bag</h3>
                         <p class="text-gray-600">₦145,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('bag-4', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('bag-4', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('bag-22', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('bag-22', 'Wine colour Burberry leather bag', 145000, 'Bags/Wine colour Burberry leather bag.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -1594,7 +1943,7 @@
                             <p class="font-medium">Your order information has been successfully saved.</p>
                             <p class="text-sm">• Redirecting you to complete payment...</p>
                             <p class="text-sm">• Your items are reserved for 24 hours</p>
-                            <p class="text-sm">• Need help? Contact: +234 801 234 5678</p>
+                            <p class="text-sm">• Need help? Contact: +234 802 301 1230</p>
                         </div>
                     </div>
                     
@@ -1740,10 +2089,10 @@
                             </div>
                             <div class="text-green-700 space-y-2">
                                 <p class="font-medium">Your payment proof has been successfully submitted.</p>
-                                <p class="text-sm">• We will verify your payment within 2-4 hours</p>
+                                <p class="text-sm">• We will verify your payment within 1 hour</p>
                                 <p class="text-sm">• You'll receive an email confirmation once verified</p>
                                 <p class="text-sm">• Your order will be processed immediately after verification</p>
-                                <p class="text-sm">• Track your order status via phone: +234 801 234 5678</p>
+                                <p class="text-sm">• Track your order status via phone: +234 802 301 1230</p>
                             </div>
                         </div>
                     </form>
@@ -1896,11 +2245,11 @@
                             </div>
                             <div class="text-green-700 space-y-2">
                                 <p class="font-medium">Your Pay on Delivery order has been confirmed.</p>
-                                <p class="text-sm">• We will contact you within 24 hours to arrange delivery</p>
+                                <p class="text-sm">• We will contact you within 1 hour to arrange delivery</p>
                                 <p class="text-sm">• Have the exact cash amount ready: ₦<span id="podFinalAmount">0</span></p>
                                 <p class="text-sm">• You can inspect items before payment</p>
                                 <p class="text-sm">• Our delivery agent will have proper identification</p>
-                                <p class="text-sm">• Questions? Call us: +234 801 234 5678</p>
+                                <p class="text-sm">• Questions? Call us: +234 802 301 1230</p>
                             </div>
                         </div>
                     </form>
@@ -1921,7 +2270,7 @@
                             <button onclick="toggleWhatsApp()" class="bg-green-500 text-white px-4 py-2 rounded text-sm hover:bg-green-600">
                                 💬 Chat with Us
                             </button>
-                            <a href="tel:+2348012345678" class="bg-gray-600 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">
+                            <a href="tel:+2348023011230" class="bg-gray-600 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">
                                 📞 Call Support
                             </a>
                         </div>
@@ -1942,8 +2291,8 @@
                 <div class="mb-8">
                     <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop&crop=center" alt="FlourishSen Fashion Store" class="w-full h-64 object-cover rounded-lg mb-6">
                 </div>
-                <p class="text-gray-700 mb-6">FlourishSen is Nigeria's premier fashion destination, offering the latest trends and timeless classics for the modern individual. Founded with a passion for style and quality, we curate collections that celebrate diversity and self-expression.</p>
-                <p class="text-gray-700 mb-6">Our mission is to make fashion accessible to everyone, providing high-quality clothing, shoes, and accessories at competitive prices. We believe that everyone deserves to look and feel their best.</p>
+                <p class="text-gray-700 mb-6">FlourishSen is Nigeria's premier fashion destination, offering the latest trends and timeless classics for the modern individual. Founded 25 years ago with a passion for style and quality, we curate collections that celebrate diversity and self-expression.</p>
+                <p class="text-gray-700 mb-6">Our mission is to make fashion accessible to everyone, providing high-quality clothing, shoes, bags. jewelries, wristwatches and sunglasses at competitive prices. We believe that everyone deserves to look and feel their best.</p>
                 <p class="text-gray-700">From trending streetwear to elegant formal wear, FlourishSen is your one-stop shop for all things fashion.</p>
             </div>
         </div>
@@ -1960,8 +2309,8 @@
                 <div class="bg-white p-6 rounded-lg shadow-lg">
                     <h3 class="text-xl font-bold mb-4">Get in Touch</h3>
                     <div class="space-y-3">
-                        <p><strong>Address:</strong> 123 Fashion Street, Victoria Island, Lagos</p>
-                        <p><strong>Phone:</strong> +234 801 234 5678</p>
+                        <p><strong>Address:</strong> Flourish Boutique, Shop B11/B12, Grace-Plaza, Ado Road, Ajah. Lekki. Lagos</p>
+                        <p><strong>Phone:</strong> +234 802 301 1230</p>
                         <p><strong>Email:</strong> info@flourishsen.com</p>
                         <p><strong>Hours:</strong> Mon-Sat 9AM-8PM</p>
                     </div>
@@ -2048,7 +2397,7 @@
                         <button onclick="toggleWhatsApp()" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-medium transition-colors">
                             💬 Live Chat
                         </button>
-                        <a href="tel:+2348012345678" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium transition-colors">
+                        <a href="tel:+2348023011230" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg font-medium transition-colors">
                             📞 Call Us
                         </a>
                     </div>
@@ -2069,7 +2418,7 @@
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I place an order?</h4>
                                 <div class="text-gray-600 space-y-2">
                                     <p><strong>Step 1:</strong> Browse our categories or use the search bar to find products</p>
-                                    <p><strong>Step 2:</strong> Click on a product to view details and select size/color if applicable</p>
+                                    <p><strong>Step 2:</strong> Click on a product to view details</p>
                                     <p><strong>Step 3:</strong> Click "Add to Cart" and continue shopping or proceed to checkout</p>
                                     <p><strong>Step 4:</strong> Fill in your delivery details and choose payment method</p>
                                     <p><strong>Step 5:</strong> Complete payment and receive order confirmation</p>
@@ -2078,13 +2427,13 @@
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Can I modify my order after placing it?</h4>
-                                <p class="text-gray-600">Orders can be modified within 2 hours of placement. Contact our support team immediately at +234 801 234 5678 or use live chat. After 2 hours, orders enter processing and cannot be changed.</p>
+                                <p class="text-gray-600">Orders can be modified within 2 hours of placement. Contact our support team immediately at +234 802 301 1230 or use live chat. After 2 hours, orders enter processing and cannot be changed.</p>
                             </div>
                             
-                            <div class="border-b border-gray-200 pb-4">
+                            <!-- <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do you have a size guide?</h4>
                                 <p class="text-gray-600">Yes! Each clothing item has a detailed size guide. Click on "Size Guide" on the product page. We offer sizes from XS to XXL. If you're unsure, our chat support can help you choose the right size.</p>
-                            </div>
+                            </div> -->
                             
                             <div class="pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I use the wishlist?</h4>
@@ -2098,20 +2447,20 @@
                                 <p class="text-gray-600">Out of stock items will show "Notify Me" instead of "Add to Cart". Click this to get notified when the item is back in stock. We typically restock popular items within 1-2 weeks.</p>
                             </div>
                             
-                            <div class="border-b border-gray-200 pb-4">
+                            <!-- <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Can I order multiple items in different sizes?</h4>
                                 <p class="text-gray-600">Absolutely! Add each size/color variation separately to your cart. Each variation will appear as a separate line item in your cart with individual quantities.</p>
-                            </div>
+                            </div> -->
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do you offer bulk discounts?</h4>
-                                <p class="text-gray-600">Yes! Orders above ₦100,000 qualify for bulk discounts. Contact our sales team at sales@flourishsen.com or call +234 801 234 5678 for custom pricing on large orders.</p>
+                                <p class="text-gray-600">Yes! Orders above ₦200,000 qualify for bulk discounts. Contact our sales team at sales@flourishsen.com or call +234 802 301 1230 for custom pricing on large orders.</p>
                             </div>
                             
-                            <div class="pb-4">
+                            <!-- <div class="pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I apply a discount code?</h4>
                                 <p class="text-gray-600">Enter your discount code in the "Promo Code" field during checkout before completing payment. The discount will be applied automatically to eligible items in your cart.</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </section>
@@ -2200,7 +2549,7 @@
                             
                             <div class="pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Can I track my order?</h4>
-                                <p class="text-gray-600">Absolutely! After your order ships, you'll receive tracking information via SMS and email. You can also track your order on our website or contact our support team for updates.</p>
+                                <p class="text-gray-600">Absolutely! After your order ships, You can track it on our website or contact our support team for updates.</p>
                             </div>
                         </div>
                         
@@ -2212,7 +2561,7 @@
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do you deliver on weekends?</h4>
-                                <p class="text-gray-600">Yes! We deliver Monday through Saturday. Sunday deliveries are available in Lagos and Abuja for urgent orders with an additional ₦1,500 charge.</p>
+                                <p class="text-gray-600">Yes! We deliver Monday through Saturday. Sunday deliveries are not available.</p>
                             </div>
                             
                             <div class="pb-4">
@@ -2297,7 +2646,7 @@
                         <div class="space-y-6">
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Do I need to create an account?</h4>
-                                <p class="text-gray-600">No account required! You can shop as a guest. However, creating an account lets you track orders, save favorites, and checkout faster on future purchases.</p>
+                                <p class="text-gray-600">No account required! You can shop as a guest.</p>
                             </div>
                             
                             <div class="border-b border-gray-200 pb-4">
@@ -2311,11 +2660,11 @@
                             </div>
                         </div>
                         
-                        <div class="space-y-6">
+                        <!-- <div class="space-y-6">
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I subscribe to newsletters?</h4>
                                 <p class="text-gray-600">Enter your email in the newsletter signup at the bottom of any page. You'll receive updates on new arrivals, sales, and exclusive offers. You can unsubscribe anytime.</p>
-                            </div>
+                            </div> -->
                             
                             <div class="border-b border-gray-200 pb-4">
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">Can I shop on mobile?</h4>
@@ -2326,8 +2675,8 @@
                                 <h4 class="font-semibold text-lg mb-2 text-gray-800">How do I contact customer service?</h4>
                                 <div class="text-gray-600 space-y-1">
                                     <p>• Live Chat: Click the chat icon (available 24/7)</p>
-                                    <p>• Phone: +234 801 234 5678</p>
-                                    <p>• WhatsApp: +234 801 234 5678</p>
+                                    <p>• Phone: +234 802 301 1230</p>
+                                    <p>• WhatsApp: +234 802 301 1230</p>
                                     <p>• Email: support@flourishsen.com</p>
                                 </div>
                             </div>
@@ -2348,7 +2697,7 @@
                     <button onclick="toggleWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-medium transition-colors">
                         💬 Start Live Chat
                     </button>
-                    <a href="tel:+2348012345678" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-colors">
+                    <a href="tel:+2348023011230" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-colors">
                         📞 Call Support
                     </a>
                     <a href="mailto:support@flourishsen.com" class="bg-gray-600 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
@@ -2503,7 +2852,7 @@
                         <button onclick="toggleWhatsApp()" class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
                             💬 Chat Now
                         </button>
-                        <a href="tel:+2348012345678" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+                        <a href="tel:+2348023011230" class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
                             📞 Call Us
                         </a>
                     </div>
@@ -2605,6 +2954,7 @@
                 <div>
                     <h4 class="font-semibold mb-4">Quick Links</h4>
                     <div class="space-y-2">
+                        <button onclick="showPage('home')" class="block text-gray-300 hover:text-white">Home</button>
                         <button onclick="showPage('about')" class="block text-gray-300 hover:text-white">About</button>
                         <button onclick="showPage('contact')" class="block text-gray-300 hover:text-white">Contact</button>
                     </div>
@@ -2638,8 +2988,8 @@
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-                <p class="text-gray-300">&copy; 2024 FlourishSen. All rights reserved.</p>
-                <p class="text-gray-400 text-sm mt-2 cursor-pointer hover:text-gray-300 transition-colors" onclick="window.open('https://github.com/jamesdev', '_blank')">James Dev &lt;/&gt;</p>
+                <p class="text-gray-300">&copy; 2025 FlourishSen. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mt-2 cursor-pointer hover:text-gray-300 transition-colors" onclick="window.open('https://chef-hub5.github.io/portfolio/')">James Dev &lt;/&gt;</p>
             </div>
         </div>
     </footer>
@@ -3684,22 +4034,22 @@
         // Search functionality
         const allProducts = [
             // Trending items
-            { id: 'trending-1', name: 'Stylish Jacket', price: 25000, category: 'trending', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1' },
-            { id: 'trending-2', name: 'Designer Dress', price: 35000, category: 'trending', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2' },
-            { id: 'trending-3', name: 'Casual Shirt', price: 15000, category: 'trending', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Trending+Item+3' },
-            { id: 'trending-4', name: 'Premium Jeans', price: 20000, category: 'trending', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Trending+Item+4' },
+            // { id: 'trending-1', name: 'Stylish Jacket', price: 25000, category: 'trending', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Trending+Item+1' },
+            // { id: 'trending-2', name: 'Designer Dress', price: 35000, category: 'trending', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Trending+Item+2' },
+            // { id: 'trending-3', name: 'Casual Shirt', price: 15000, category: 'trending', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Trending+Item+3' },
+            // { id: 'trending-4', name: 'Premium Jeans', price: 20000, category: 'trending', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Trending+Item+4' },
             
-            // New arrivals
-            { id: 'new-1', name: 'Fresh Blazer', price: 40000, category: 'new-in', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1' },
-            { id: 'new-2', name: 'Modern Skirt', price: 18000, category: 'new-in', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=New+Item+2' },
-            { id: 'new-3', name: 'Trendy Top', price: 12000, category: 'new-in', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=New+Item+3' },
-            { id: 'new-4', name: 'Elegant Pants', price: 22000, category: 'new-in', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=New+Item+4' },
+            // // New arrivals
+            // { id: 'new-1', name: 'Fresh Blazer', price: 40000, category: 'new-in', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=New+Item+1' },
+            // { id: 'new-2', name: 'Modern Skirt', price: 18000, category: 'new-in', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=New+Item+2' },
+            // { id: 'new-3', name: 'Trendy Top', price: 12000, category: 'new-in', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=New+Item+3' },
+            // { id: 'new-4', name: 'Elegant Pants', price: 22000, category: 'new-in', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=New+Item+4' },
             
-            // Explore more
-            { id: 'explore-1', name: 'Luxury Coat', price: 55000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Selected+Item+1' },
-            { id: 'explore-2', name: 'Designer Bag', price: 30000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Selected+Item+2' },
-            { id: 'explore-3', name: 'Premium Watch', price: 45000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Selected+Item+3' },
-            { id: 'explore-4', name: 'Stylish Sunglasses', price: 8000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4' },
+            // // Explore more
+            // { id: 'explore-1', name: 'Luxury Coat', price: 55000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Selected+Item+1' },
+            // { id: 'explore-2', name: 'Designer Bag', price: 30000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Selected+Item+2' },
+            // { id: 'explore-3', name: 'Premium Watch', price: 45000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Selected+Item+3' },
+            // { id: 'explore-4', name: 'Stylish Sunglasses', price: 8000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4' },
             
             // Jewelries
             { id: 'jewelry-1', name: 'Gold Chain Necklace', price: 65000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace' },
@@ -3708,34 +4058,84 @@
             { id: 'jewelry-4', name: 'Gold Bracelet', price: 45000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet' },
             
             // Clothing
-            { id: 'clothing-1', name: 'Designer Shirt', price: 18000, category: 'clothing', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Designer+Shirt' },
-            { id: 'clothing-2', name: 'Elegant Dress', price: 32000, category: 'clothing', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Elegant+Dress' },
-            { id: 'clothing-3', name: 'Casual Jeans', price: 22000, category: 'clothing', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Jeans' },
-            { id: 'clothing-4', name: 'Formal Blazer', price: 45000, category: 'clothing', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Formal+Blazer' },
+            { id: 'clothing-1', name: 'All white pretty dress. Available only in size 44', price: 120000, category: 'clothing', image: 'Clothes/All white pretty dress. Available only in size 44.jpg' },
+            { id: 'clothing-2', name: 'Clothes/Beautiful for work', price: 100000, category: 'clothing', image: 'Clothes/Beautiful for work.jpg' },
+            { id: 'clothing-3', name: 'Beautiful Turkey made skirt and blouse', price: 90000, category: 'clothing', image: 'Clothes/Beautiful Turkey made skirt and blouse. Fabric soft and body friendly. Available sizes 44.46.50 .jpg' },
+            { id: 'clothing-4', name: 'Extremely beautiful! Excellent fabric and style. Suitable for outing', price: 125000, category: 'clothing', image: 'Clothes/Extremely beautiful! Excellent fabric and style. Suitable for outing.jpg' },
+            { id: 'clothing-5', name: 'It’s a dress and jacket. Lovely work wear', price: 100000, category: 'clothing', image: 'Clothes/It’s a dress and jacket. Lovely work wear. Sizes 44. 46 . 50 available.jpg' },
+            { id: 'clothing-6', name: 'It’s a dress. Suitable for church and other occasions', price: 100000, category: 'clothing', image: 'Clothes/It’s a dress. Suitable for church and other occasions. Sizes 46, 50 available.jpg' },
+            { id: 'clothing-7', name: 'Lovely outing dresses', price: 115000, category: 'clothing', image: 'Clothes/Lovely outing dresses. Very beautifu.jpg' },
+            { id: 'clothing-8', name: 'Lovely party wear', price: 100000, category: 'clothing', image: 'Clothes/Lovely party wear. Two piece. Very stylish! Size 48. 50 available.jpg' },
+            { id: 'clothing-9', name: 'Luxury! Luxury! Work wear. Extremely beautiful', price: 100000, category: 'clothing', image: 'Clothes/Luxury! Luxury! Work wear. Extremely beautiful, Available in size 50.jpg' },
+            { id: 'clothing-10', name: 'Two pieces outing wear', price: 80000, category: 'clothing', image: 'Clothes/Two pieces outing wear. Lovely sizes 44 to 50 available.jpg' },
+            { id: 'clothing-11', name: 'Suitable for church , wedding and other functions. Fabric extremely good', price: 115000, category: 'clothing', image: 'Clothes/Suitable for church , wedding and other functions. Fabric extremely good.jpg' },
             
             // Shoes
-            { id: 'shoes-1', name: 'Running Shoes', price: 28000, category: 'shoes', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Running+Shoes' },
-            { id: 'shoes-2', name: 'Formal Shoes', price: 35000, category: 'shoes', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Formal+Shoes' },
-            { id: 'shoes-3', name: 'Casual Sneakers', price: 25000, category: 'shoes', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Casual+Sneakers' },
-            { id: 'shoes-4', name: 'High Heels', price: 30000, category: 'shoes', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=High+Heels' },
+            { id: 'shoes-1', name: 'Beautiful Italian Cerruti sandals', price: 110000, category: 'shoes', image: 'Shoes/Beautiful Italian Cerruti sandals.jpg' },
+            { id: 'shoes-2', name: 'Beautiful Italian sandals. Cerruti design', price: 110000, category: 'shoes', image: 'Shoes/Beautiful Italian sandals. Cerruti design.jpg' },
+            { id: 'shoes-3', name: 'Beautiful Valentino sandals', price: 95000, category: 'shoes', image: 'Shoes/Beautiful Valentino sandals.jpg' },
+            { id: 'shoes-4', name: 'Black Fendi slip on. Moderate heel', price: 95000, category: 'shoes', image: 'Shoes/Black Fendi slip on. Moderate heel.jpg' },
+            { id: 'shoes-5', name: 'Black Gucci sandals', price: 95000, category: 'shoes', image: 'Shoes/Black Gucci sandals.jpg' },
+            { id: 'shoes-6', name: 'Black Gucci sandalss', price: 100000, category: 'shoes', image: 'Shoes/Black Gucci sandalss.jpg' },
+            { id: 'shoes-7', name: 'Black lovely slip on', price: 85000, category: 'shoes', image: 'Shoes/Black lovely slip on.jpg' },
+            { id: 'shoes-8', name: 'Blue lovely elegant slippers', price: 85000, category: 'shoes', image: 'Shoes/Blue lovely elegant slippers.jpg' },
+            { id: 'shoes-9', name: 'Brown moschino sandals', price: 95000, category: 'shoes', image: 'Shoes/Brown moschino sandals.jpg' },
+            { id: 'shoes-10', name: 'Gold Silver Versace shoes. Party wear! Comfortable', price: 95000, category: 'shoes', image: 'Shoes/Gold Silver Versace shoes. Party wear! Comfortable.jpg' },
+            { id: 'shoes-11', name: 'Italian Cerruti sandals. Beautiful! Durable', price: 110000, category: 'shoes', image: 'Shoes/Italian Cerruti sandals 110,000. Beautiful! Durable.jpg' },
+            { id: 'shoes-12', name: 'Jimmy cho gold sandals. Classy', price: 95000, category: 'shoes', image: 'Shoes/Jimmy cho gold sandals. Classy.jpg' },
+            { id: 'shoes-13', name: 'Luxurious Channel shoes. Real leather', price: 95000, category: 'shoes', image: 'Shoes/Luxurious Channel shoes. Real leather.jpg' },
+            { id: 'shoes-14', name: 'Orange Luxury shoe. Comfortable', price: 85000, category: 'shoes', image: 'Shoes/Orange Luxury shoe. Comfortable.jpg' },
+            { id: 'shoes-15', name: 'Red channel slippers', price: 95000, category: 'shoes', image: 'Shoes/Red channel slippers.jpg' },
+            { id: 'shoes-16', name: 'Red miu miu slippers! Comes in various colours! Lovely', price: 100000, category: 'shoes', image: 'Shoes/Red miu miu slippers! Comes in various colours! Lovely.jpg' },
+            { id: 'shoes-17', name: 'Red Muschino slip on. Beautiful', price: 95000, category: 'shoes', image: 'Shoes/Red Muschino slip on. Beautiful.jpg' },
+            { id: 'shoes-18', name: 'These comes in various colours. Classy channel shoes', price: 95000, category: 'shoes', image: 'Shoes/These comes in various colours. Classy channel shoes.jpg' },
+            { id: 'shoes-19', name: 'Wine colours Cerruti sandals', price: 110000, category: 'shoes', image: 'Shoes/Wine colours Cerruti sandals.jpg' },
+            { id: 'shoes-20', name: 'Beautiful! Classy! Eyecatching', price: 95000, category: 'shoes', image: 'Shoes/Beautiful! Classy! Eyecatching.jpg' },
             
             // Glasses
-            { id: 'glasses-1', name: 'Designer Sunglasses', price: 15000, category: 'glasses', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Sunglasses' },
-            { id: 'glasses-2', name: 'Reading Glasses', price: 8000, category: 'glasses', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Reading+Glasses' },
-            { id: 'glasses-3', name: 'Blue Light Glasses', price: 12000, category: 'glasses', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Blue+Light+Glasses' },
-            { id: 'glasses-4', name: 'Prescription Glasses', price: 20000, category: 'glasses', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Prescription+Glasses' },
+            { id: 'glasses-1', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/1.jpg' },
+            { id: 'glasses-2', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/2.jpg' },
+            { id: 'glasses-3', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/3.jpg' },
+            { id: 'glasses-4', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/4.jpg' },
+            { id: 'glasses-5', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/5.jpg' },
+            { id: 'glasses-6', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/6.jpg' },
+            { id: 'glasses-7', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/7.jpg' },
+            { id: 'glasses-8', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/8.jpg' },
+            { id: 'glasses-9', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/9.jpg' },
+            { id: 'glasses-10', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/10.jpg' },
+            { id: 'glasses-11', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/11.jpg' },
+            { id: 'glasses-12', name: 'Original Top designers sunglasses', price: 75000, category: 'glasses', image: 'Glasses/12.jpg' },
             
             // Watches
-            { id: 'watch-1', name: 'Luxury Watch', price: 85000, category: 'watches', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Luxury+Watch' },
-            { id: 'watch-2', name: 'Smart Watch', price: 45000, category: 'watches', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Smart+Watch' },
-            { id: 'watch-3', name: 'Sports Watch', price: 25000, category: 'watches', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Sports+Watch' },
-            { id: 'watch-4', name: 'Classic Watch', price: 35000, category: 'watches', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Classic+Watch' },
+            { id: 'watch-1', name: 'Bulgari spiral wrist watch', price: 160000, category: 'watches', image: 'Watches/Bulgari 1.jpg' },
+            { id: 'watch-2', name: 'Bulgari spiral wrist watch', price: 160000, category: 'watches', image: 'Watches/Bulgari 2.jpg' },
+            { id: 'watch-3', name: 'Bulgari spiral wrist watch', price: 160000, category: 'watches', image: 'Watches/Bulgari spiral wrist watch.jpg' },
+            { id: 'watch-4', name: 'Original Versace wristwatch', price: 160000, category: 'watches', image: 'Watches/Original Versace wristwatch.jpg' },
+            { id: 'watch-5', name: 'Original Versace wristwatch', price: 160000, category: 'watches', image: 'Watches/Varsa 2.jpg' },
             
             // Bags
-            { id: 'bag-1', name: 'Designer Handbag', price: 42000, category: 'bags', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Handbag' },
-            { id: 'bag-2', name: 'Travel Backpack', price: 28000, category: 'bags', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Backpack' },
-            { id: 'bag-3', name: 'Crossbody Bag', price: 18000, category: 'bags', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Crossbody+Bag' },
-            { id: 'bag-4', name: 'Leather Tote Bag', price: 35000, category: 'bags', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Tote+Bag' }
+            { id: 'bag-1', name: 'Beautiful Fendi bag', price: 145000, category: 'bags', image: 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg' },
+            { id: 'bag-2', name: 'Beautiful Gucci bag', price: 115000, category: 'bags', image: 'Bags/Beautiful Gucci bag.jpg' },
+            { id: 'bag-3', name: 'Beautiful leather miu miu bag', price: 155000, category: 'bags', image: 'Bags/Beautiful leather miu miu bag.jpg' },
+            { id: 'bag-4', name: 'Beautiful LV bag for work', price: 145000, category: 'bags', image: 'Bags/Beautiful LV bag for work.jpg' },
+            { id: 'bag-5', name: 'Beautiful red bag! So classy', price: 190000, category: 'bags', image: 'Bags/Beautiful red bag! So classy.jpg' },
+            { id: 'bag-6', name: 'Black Gucci bag', price: 160000, category: 'bags', image: 'Bags/Black Gucci bag. Lovely.jpg' },
+            { id: 'bag-7', name: 'Black high quality Channel bag', price: 190000, category: 'bags', image: 'Bags/Black high quality Channel bag.jpg' },
+            { id: 'bag-8', name: 'Black leather Ferragamor bag', price: 145000, category: 'bags', image: 'Bags/Black leather Ferragamor bag.jpg' },
+            { id: 'bag-9', name: 'Black Tomford leather bag', price: 155000, category: 'bags', image: 'Bags/Black Tomford leather bag. Real leather. Durable. Classy..jpg' },
+            { id: 'bag-10', name: 'Coach leather bag', price: 145000, category: 'bags', image: 'Bags/Coach leather bag. Beautiful! Classy! Elegant.jpg' },
+            { id: 'bag-11', name: 'Fine Gucci bag. Real leather', price: 145000, category: 'bags', image: 'Bags/Fine Gucci bag. Real leather. .jpg' },
+            { id: 'bag-12', name: 'Bulgari leather bag', price: 165000, category: 'bags', image: 'Bags/Gold  Bulgari leather bag. Extremely pretty. A must have for every woman.jpg' },
+            { id: 'bag-13', name: 'Gold Valentino bag', price: 145000, category: 'bags', image: 'Bags/Gold Valentino bag. For occasions! Really elegant.jpg' },
+            { id: 'bag-14', name: 'Leather LV bag for work', price: 155000, category: 'bags', image: 'Bags/Leather LV bag for work.jpg' },
+            { id: 'bag-15', name: 'Lovely Balenciaga cute bag', price: 145000, category: 'bags', image: 'Bags/Lovely Balenciaga cute bag..jpg' },
+            { id: 'bag-16', name: 'Lovely Burberry bag for work', price: 160000, category: 'bags', image: 'Bags/Lovely Burberry bag for work. All leather.jpg' },
+            { id: 'bag-17', name: 'Lovely Gucci bag', price: 155000, category: 'bags', image: 'Bags/Lovely Gucci bag. All leather.jpg' },
+            { id: 'bag-18', name: 'Navy Blue Gucci bag', price: 145000, category: 'bags', image: 'Bags/Navy Blue Gucci bag.jpg' },
+            { id: 'bag-19', name: 'Real snake skin leather', price: 180000, category: 'bags', image: 'Bags/Real snake skin leather. Excellently beautiful.jpg' },
+            { id: 'bag-20', name: 'Roberta carvalli patent bag', price: 135000, category: 'bags', image: 'Bags/Roberta carvalli patent bag.jpg' },
+            { id: 'bag-21', name: 'Versace bag', price: 120000, category: 'bags', image: 'Bags/Versace bag,  comes in various colours. Red. Gold. Black. Silver.jpg' },
+            { id: 'bag-22', name: 'Wine colour Burberry leather bag', price: 160000, category: 'bags', image: 'Bags/Wine colour Burberry leather bag.jpg' },
         ];
 
         function handleSearchEnter(event) {
