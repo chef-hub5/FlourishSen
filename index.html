@@ -353,7 +353,7 @@
     <!-- WhatsApp Chat -->
     <div class="whatsapp-chat" id="whatsappChat">
         <div class="chat-header">
-            <img src="Logo/LOGO 4.png" alt="AI Assistant" class="w-10 h-8 rounded-full">
+            <img src="Logo/LOGO 4.png" alt="AI Assistant" class="w-8 h-8 rounded-full">
             <div>
                 <div class="font-semibold">FlourishSen</div>
                 <div class="text-xs opacity-75">Online</div>
@@ -427,7 +427,7 @@
 
         <!-- Main Grid Section -->
         <section class="max-w-7xl mx-auto px-4 py-12">
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow" onclick="showPage('trending')">
                     <img src="Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg" alt="Trending" class="w-full h-64 object-cover">
                     <div class="p-6">
@@ -450,13 +450,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>  
 
         <!-- Category Buttons -->
         <section class="max-w-7xl mx-auto px-4 py-8">
             <div class="flex flex-wrap justify-center gap-4">
                 <button onclick="showPage('clothing')" class="bg-transparent border-2 border-gray-400 text-gray-700 px-6 py-3 rounded hover:border-gray-600 transition-colors">
-                    Clothing
+                    Clothings
                 </button>
                 <button onclick="showPage('shoes')" class="bg-transparent border-2 border-gray-400 text-gray-700 px-6 py-3 rounded hover:border-gray-600 transition-colors">
                     Shoes
@@ -487,7 +487,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('trending-1', 'Beautiful Fendi bag, Classy. All leather', 145000, 'Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg', 'A premium stylish jacket perfect for any occasion. Made with high-quality materials and modern design.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg" alt="Beautiful Fendi bag, Classy. All leather" class="w-full h-64 object-cover">
+                    <img src="Bags/Beautiful Fendi bag. Good for outing and church. Classy. All leather bag.jpg" alt="Beautiful Fendi bag, Classy. All leather" class="w-full h-65 object-center">
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800">Beautiful Fendi bag, Classy. All leather</h3>
                         <p class="text-gray-600">₦145,000</p>
@@ -697,51 +697,195 @@
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-1', 'Gold Chain Necklace', 65000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace', 'An exquisite gold chain necklace crafted from 18k gold. Perfect for special occasions and everyday elegance.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-1', 'Beautiful Brazillian gold jewelry. Non tarnish', 170000, 'Jewelry/Beautiful Brazillian gold jewelry. Non tarnish.jpg', 'An exquisite gold chain necklace crafted from 18k gold. Perfect for special occasions and everyday elegance.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace" alt="Gold Necklace" class="w-full h-64 object-cover">
+                    <img src="Jewelry/Beautiful Brazillian gold jewelry. Non tarnish.jpg" alt="Beautiful Brazillian gold jewelry. Non tarnish" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Gold Chain Necklace</h3>
-                        <p class="text-gray-600">₦65,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Brazillian gold jewelry. Non tarnish</h3>
+                        <p class="text-gray-600">₦170,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('jewelry-1', 'Gold Chain Necklace', 65000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-1', 'Gold Chain Necklace', 65000, 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-1', 'Beautiful Brazillian gold jewelry. Non tarnish', 170000, 'Jewelry/Beautiful Brazillian gold jewelry. Non tarnish.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-1', 'Beautiful Brazillian gold jewelry. Non tarnish', 170000, 'Jewelry/Beautiful Brazillian gold jewelry. Non tarnish.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-2', 'Silver Pendant', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Silver+Necklace', 'A beautiful silver pendant with intricate design. Made from sterling silver with a polished finish.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-2', 'Beautiful Brazillian gold jewelry', 75000, 'Jewelry/Beautiful Brazillian gold jewelry.jpg', 'A beautiful silver pendant with intricate design. Made from sterling silver with a polished finish.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/404040/FFFFFF?text=Silver+Necklace" alt="Silver Necklace" class="w-full h-64 object-cover">
+                    <img src="Jewelry/Beautiful Brazillian gold jewelry.jpg" alt="Beautiful Brazillian gold jewelry" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Silver Pendant</h3>
-                        <p class="text-gray-600">₦35,000</p>
+                        <h3 class="font-semibold text-gray-800">Beautiful Brazillian gold jewelry</h3>
+                        <p class="text-gray-600">₦75,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('jewelry-2', 'Silver Pendant', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Silver+Necklace')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-2', 'Silver Pendant', 35000, 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Silver+Necklace')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-2', 'Beautiful Brazillian gold jewelry', 75000, 'Jewelry/Beautiful Brazillian gold jewelry.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-2', 'Beautiful Brazillian gold jewelry', 75000, 'Jewelry/Beautiful Brazillian gold jewelry.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-3', 'Diamond Ring', 120000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Diamond+Ring', 'A stunning diamond ring featuring a brilliant cut diamond set in white gold. Perfect for engagements and special moments.')">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-3', 'Beautiful! Durable! Brazillian gold Jewelry', 230000, 'Jewelry/Beautiful! Durable! Brazillian gold.jpg', 'A stunning diamond ring featuring a brilliant cut diamond set in white gold. Perfect for engagements and special moments.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Diamond+Ring" alt="Diamond Ring" class="w-full h-64 object-cover">
+                    <img src="Jewelry/Beautiful! Durable! Brazillian gold.jpg" alt="Beautiful! Durable! Brazillian gold Jewelry" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Diamond Ring</h3>
+                        <h3 class="font-semibold text-gray-800">Beautiful! Durable! Brazillian gold Jewelry</h3>
+                        <p class="text-gray-600">₦230,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-3', 'Beautiful! Durable! Brazillian gold Jewelry', 230000, 'Jewelry/Beautiful! Durable! Brazillian gold.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-3', 'Beautiful! Durable! Brazillian gold Jewelry', 230000, 'Jewelry/Beautiful! Durable! Brazillian gold.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-4', 'Big Brazilian gold earring', 55000, 'Jewelry/Big Brazilian gold earring.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Big Brazilian gold earring.jpg" alt="Big Brazilian gold earring" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Big Brazilian gold earring</h3>
+                        <p class="text-gray-600">₦55,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-4', 'Big Brazilian gold earring', 55000, 'Jewelry/Big Brazilian gold earring.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-4', 'Big Brazilian gold earring', 55000, 'Jewelry/Big Brazilian gold earring.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-5', 'Brazillian gold! Exotic', 165000, 'Jewelry/Brazillian gold! Exotic.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Brazillian gold! Exotic.jpg" alt="Brazillian gold! Exotic" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Brazillian gold! Exotic</h3>
+                        <p class="text-gray-600">₦165,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-5', 'Brazillian gold! Exotic', 165000, 'Jewelry/Brazillian gold! Exotic.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-5', 'Brazillian gold! Exotic', 165000, 'Jewelry/Brazillian gold! Exotic.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-6', 'Complete set Brazillian jewelry! Simple, classy', 200000, 'Jewelry/complete set Brazillian jewelry! Simple, classy.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/complete set Brazillian jewelry! Simple, classy.jpg" alt="Complete set Brazillian jewelry! Simple, classy" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Complete set Brazillian jewelry! Simple, classy</h3>
+                        <p class="text-gray-600">₦200,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-6', 'Complete set Brazillian jewelry! Simple, classy', 200000, 'Jewelry/complete set Brazillian jewelry! Simple, classy.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-6', 'Complete set Brazillian jewelry! Simple, classy', 200000, 'Jewelry/complete set Brazillian jewelry! Simple, classy.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-7', 'Complete set Brazillian jewelry', 160000, 'Jewelry/complete set Brazillian jewelry.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/complete set Brazillian jewelry.jpg" alt="Complete set Brazillian jewelry" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Complete set Brazillian jewelry</h3>
+                        <p class="text-gray-600">₦160,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-7', 'Complete set Brazillian jewelry', 160000, 'Jewelry/complete set Brazillian jewelry.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-7', 'Complete set Brazillian jewelry', 160000, 'Jewelry/complete set Brazillian jewelry.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-8', 'Complete set! Beautiful hassle, Brazillian gold jewelry', 280000, 'Jewelry/complete set! Beautiful hassle! .jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/complete set! Beautiful hassle! .jpg" alt="Complete set! Beautiful hassle" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Complete set! Beautiful hassle, Brazillian gold jewelry</h3>
+                        <p class="text-gray-600">₦280,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-8', 'Complete set! Beautiful hassle, Brazillian gold jewelry', 280000, 'Jewelry/complete set! Beautiful hassle! .jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-8', 'Complete set! Beautiful hassle, Brazillian gold jewelry', 280000, 'Jewelry/complete set! Beautiful hassle! .jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-9', 'Complete set! Necklace, hand bangle, earrings. Brazillian', 250000, 'Jewelry/Complete set! Necklace, hand bangle, earrings. Brazillian.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Complete set! Necklace, hand bangle, earrings. Brazillian.jpg" alt="Complete set! Necklace, hand bangle, earrings. Brazillian" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Complete set! Necklace, hand bangle, earrings. Brazillian</h3>
+                        <p class="text-gray-600">₦250,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-9', 'Complete set! Necklace, hand bangle, earrings. Brazillian', 250000, 'Jewelry/Complete set! Necklace, hand bangle, earrings. Brazillian.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-9', 'Complete set! Necklace, hand bangle, earrings. Brazillian', 250000, 'Jewelry/Complete set! Necklace, hand bangle, earrings. Brazillian.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-10', 'Exotic Brazilian jewelry. Beautiful . Necklace and earrings', 125000, 'Jewelry/Exotic Brazilian jewelry. Beautiful . Necklace and earrings.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Exotic Brazilian jewelry. Beautiful . Necklace and earrings.jpg" alt="Exotic Brazilian jewelry. Beautiful . Necklace and earrings" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Exotic Brazilian jewelry. Beautiful . Necklace and earrings</h3>
+                        <p class="text-gray-600">₦125,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-10', 'Exotic Brazilian jewelry. Beautiful . Necklace and earrings', 125000, 'Jewelry/Exotic Brazilian jewelry. Beautiful . Necklace and earrings.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-10', 'Exotic Brazilian jewelry. Beautiful . Necklace and earrings', 125000, 'Jewelry/Exotic Brazilian jewelry. Beautiful . Necklace and earrings.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-11', 'Necklace and earrings. Beautiful Brazillian gold jewelry', 120000, 'Jewelry/Necklace and earrings. Beautiful Brazillian gold jewelry.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Necklace and earrings. Beautiful Brazillian gold jewelry.jpg" alt="Necklace and earrings. Beautiful Brazillian gold jewelry" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Necklace and earrings. Beautiful Brazillian gold jewelry</h3>
                         <p class="text-gray-600">₦120,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('jewelry-3', 'Diamond Ring', 120000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Diamond+Ring')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-3', 'Diamond Ring', 120000, 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Diamond+Ring')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-11', 'Necklace and earrings. Beautiful Brazillian gold jewelry', 120000, 'Jewelry/Necklace and earrings. Beautiful Brazillian gold jewelry.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-11', 'Necklace and earrings. Beautiful Brazillian gold jewelry', 120000, 'Jewelry/Necklace and earrings. Beautiful Brazillian gold jewelry.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-4', 'Gold Bracelet', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-12', 'Simple but beautiful! Brazillian gold', 165000, 'Jewelry/Simple but beautiful! Brazillian gold.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
                     <div class="click-me-text">Click me</div>
-                    <img src="https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet" alt="Gold Bracelet" class="w-full h-64 object-cover">
+                    <img src="Jewelry/Simple but beautiful! Brazillian gold.jpg" alt="Simple but beautiful! Brazillian gold" class="w-full h-64 object-cover">
                     <div class="p-4">
-                        <h3 class="font-semibold text-gray-800">Gold Bracelet</h3>
-                        <p class="text-gray-600">₦45,000</p>
+                        <h3 class="font-semibold text-gray-800">Simple but beautiful! Brazillian gold</h3>
+                        <p class="text-gray-600">₦165,000</p>
                         <div class="flex gap-2 mt-3">
-                            <button onclick="event.stopPropagation(); addToCart('jewelry-4', 'Gold Bracelet', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
-                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-4', 'Gold Bracelet', 45000, 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-12', 'Simple but beautiful! Brazillian gold', 165000, 'Jewelry/Simple but beautiful! Brazillian gold.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-12', 'Simple but beautiful! Brazillian gold', 165000, 'Jewelry/Simple but beautiful! Brazillian gold.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-13', 'Solid Brazillian jewelry', 240000, 'Jewelry/Solid Brazillian jewelry.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Solid Brazillian jewelry.jpg" alt="Solid Brazillian jewelry" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Solid Brazillian jewelry</h3>
+                        <p class="text-gray-600">₦240,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-13', 'Solid Brazillian jewelry', 240000, 'Jewelry/Solid Brazillian jewelry.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-13', 'Solid Brazillian jewelry', 240000, 'Jewelry/Solid Brazillian jewelry.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-14', 'Beautiful Coral beads', 130000, 'Jewelry/Beautiful Coral beads.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Beautiful Coral beads.jpg" alt="Beautiful Coral beads" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Beautiful Coral beads</h3>
+                        <p class="text-gray-600">₦130,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-14', 'Beautiful Coral beads', 130000, 'Jewelry/Beautiful Coral beads.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-14', 'Beautiful Coral beads', 130000, 'Jewelry/Beautiful Coral beads.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-15', 'Original Coral bead! Full set', 110000, 'Jewelry/Original Coral bead! Full set.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Original Coral bead! Full set.jpg" alt="Original Coral bead! Full set" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original Coral bead! Full set</h3>
+                        <p class="text-gray-600">₦110,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-15', 'Original Coral bead! Full set', 110000, 'Jewelry/Original Coral bead! Full set.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-15', 'Original Coral bead! Full set', 110000, 'Jewelry/Original Coral bead! Full set.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
+                        </div>
+                    </div>
+                    </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden product-card relative" onclick="openProductModal('jewelry-15', 'Original coral beads. Complete set', 135000, 'Jewelry/Original coral beads. Complete set.jpg', 'An elegant gold bracelet with a classic design. Made from 14k gold with a secure clasp and comfortable fit.')">
+                    <div class="click-me-text">Click me</div>
+                    <img src="Jewelry/Original coral beads. Complete set.jpg" alt="Original coral beads. Complete set" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-gray-800">Original coral beads. Complete set</h3>
+                        <p class="text-gray-600">₦135,000</p>
+                        <div class="flex gap-2 mt-3">
+                            <button onclick="event.stopPropagation(); addToCart('jewelry-15', 'Original coral beads. Complete set', 135000, 'Jewelry/Original coral beads. Complete set.jpg')" class="bg-gray-800 text-white px-4 py-2 rounded text-sm hover:bg-gray-700">Add to Cart</button>
+                            <button onclick="event.stopPropagation(); addToWishlist('jewelry-15', 'Original coral beads. Complete set', 135000, 'Jewelry/Original coral beads. Complete set.jpg')" class="border border-gray-300 px-3 py-2 rounded text-sm hover:bg-gray-50">❤️</button>
                         </div>
                     </div>
                 </div>
@@ -2287,9 +2431,9 @@
                 <h2 class="text-3xl font-bold text-gray-800">About FlourishSen</h2>
                 <button onclick="showPage('home')" class="text-gray-600 hover:text-gray-800">← Back to Home</button>
             </div>
-            <div class="bg-white p-8 rounded-lg shadow-lg">
+            <div class="bg-white p-9 rounded-lg shadow-lg">
                 <div class="mb-8">
-                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop&crop=center" alt="FlourishSen Fashion Store" class="w-full h-64 object-cover rounded-lg mb-6">
+                    <img src="Logo/about.jpg" alt="FlourishSen Fashion Store" class="w-full h-66 object-cover rounded-lg mb-6">
                 </div>
                 <p class="text-gray-700 mb-6">FlourishSen is Nigeria's premier fashion destination, offering the latest trends and timeless classics for the modern individual. Founded 25 years ago with a passion for style and quality, we curate collections that celebrate diversity and self-expression.</p>
                 <p class="text-gray-700 mb-6">Our mission is to make fashion accessible to everyone, providing high-quality clothing, shoes, bags. jewelries, wristwatches and sunglasses at competitive prices. We believe that everyone deserves to look and feel their best.</p>
@@ -4052,10 +4196,22 @@
             // { id: 'explore-4', name: 'Stylish Sunglasses', price: 8000, category: 'explore-more', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Selected+Item+4' },
             
             // Jewelries
-            { id: 'jewelry-1', name: 'Gold Chain Necklace', price: 65000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/2C2C2C/FFFFFF?text=Gold+Necklace' },
-            { id: 'jewelry-2', name: 'Silver Pendant', price: 35000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/404040/FFFFFF?text=Silver+Necklace' },
-            { id: 'jewelry-3', name: 'Diamond Ring', price: 120000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/1A1A1A/FFFFFF?text=Diamond+Ring' },
-            { id: 'jewelry-4', name: 'Gold Bracelet', price: 45000, category: 'jewelries', image: 'https://via.placeholder.com/300x400/333333/FFFFFF?text=Gold+Bracelet' },
+            { id: 'jewelry-1', name: 'Beautiful Brazillian gold jewelry', price: 170000, category: 'jewelries', image: 'Jewelry/Beautiful Brazillian gold jewelry. Non tarnish.jpg' },
+            { id: 'jewelry-2', name: 'Beautiful Brazillian gold jewelry', price: 75000, category: 'jewelries', image: 'Jewelry/Beautiful Brazillian gold jewelry.jpg' },
+            { id: 'jewelry-3', name: 'Brazillian gold', price: 230000, category: 'jewelries', image: 'Jewelry/Beautiful! Durable! Brazillian gold.jpg' },
+            { id: 'jewelry-4', name: 'gold earring', price: 55000, category: 'jewelries', image: 'Jewelry/Big Brazilian gold earring.jpg' },
+            { id: 'jewelry-5', name: 'Beautiful Brazillian gold', price: 165000, category: 'jewelries', image: 'Jewelry/Brazillian gold! Exotic.jpg' },
+            { id: 'jewelry-6', name: 'Complete set Brazillian jewelry', price: 160000, category: 'jewelries', image: 'Jewelry/complete set Brazillian jewelry! Simple, classy.jpg' },
+            { id: 'jewelry-7', name: 'Complete set Brazillian jewelry', price: 280000, category: 'jewelries', image: 'Jewelry/complete set! Beautiful hassle! .jpg' },
+            { id: 'jewelry-8', name: 'Complete set! Necklace', price: 250000, category: 'jewelries', image: 'Jewelry/Complete set! Necklace, hand bangle, earrings. Brazillian.jpg' },
+            { id: 'jewelry-9', name: 'Exotic Brazilian jewelry', price: 125000, category: 'jewelries', image: 'Jewelry/Exotic Brazilian jewelry. Beautiful . Necklace and earrings.jpg' },
+            { id: 'jewelry-10', name: 'Necklace and earrings', price: 120000, category: 'jewelries', image: 'Jewelry/Necklace and earrings. Beautiful Brazillian gold jewelry.jpg' },
+            { id: 'jewelry-11', name: 'Brazillian gold', price: 165000, category: 'jewelries', image: 'Jewelry/Simple but beautiful! Brazillian gold.jpg' },
+            { id: 'jewelry-12', name: 'Solid Brazillian jewelry', price: 240000, category: 'jewelries', image: 'Jewelry/Solid Brazillian jewelry.jpg' },
+            { id: 'jewelry-13', name: 'Beautiful Coral beads', price: 130000, category: 'jewelries', image: 'Jewelry/Beautiful Coral beads.jpg' },
+            { id: 'jewelry-14', name: 'Original Coral bead! Full set', price: 110000, category: 'jewelries', image: 'Jewelry/Original Coral bead! Full set.jpg' },
+            { id: 'jewelry-15', name: 'Original coral beads. Complete set', price: 135000, category: 'jewelries', image: 'Jewelry/Original coral beads. Complete set.jpg' },
+            
             
             // Clothing
             { id: 'clothing-1', name: 'All white pretty dress. Available only in size 44', price: 120000, category: 'clothing', image: 'Clothes/All white pretty dress. Available only in size 44.jpg' },
